@@ -10,12 +10,12 @@ import { Album } from './interfaces/album';
 })
 export class ApiService {
 
-  // indirizzo principale json
-  private apiUrl: string = "";
+  // indirizzo principale json *** NON UTILIZZATO
+  private apiUrl: string = "http://localhost:3000/";
   // indirizzi specifici
-  private postsUrl: string = this.apiUrl + "posts/";
-  private usersUrl: string = this.apiUrl + "users/";
-  private albumUrl: string = this.apiUrl + "album/";
+  private postsUrl: string = "http://localhost:3000/posts/";
+  private usersUrl: string = "http://localhost:3000/users/";
+  private albumUrl: string = "http://localhost:3000/albums/";
 
   constructor(private http: HttpClient) { }
 

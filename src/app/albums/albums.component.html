@@ -1,1 +1,16 @@
-<p>albums works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-12 my-5">
+            <h1>Album nel database:</h1><hr>
+            <div class="col-8 mx-auto">
+                <ul>
+                    <li class="d-flex justify-content-between flex-row border" *ngFor="let a of albums">
+                        <a class="product-name" [routerLink]="['/albums/', a.id]">{{a.titolo}}</a>
+                       
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>

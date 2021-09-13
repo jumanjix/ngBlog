@@ -1,1 +1,16 @@
-<p>users works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-12 my-5">
+            <h1>User nel database:</h1><hr>
+            <div class="col-8 mx-auto">
+                <ul>
+                    <li class="d-flex justify-content-between flex-row border" *ngFor="let u of users">
+                        <a class="product-name" [routerLink]="['/users/', u.id]">{{u.username}}</a>
+                       
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>

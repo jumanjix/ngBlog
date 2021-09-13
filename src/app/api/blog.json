@@ -1,391 +1,391 @@
 {
     "posts": [{
-            "titolo": "titolo 1",
+            "titolo": "post 1",
             "contenuto": "contenuto 1",
-            "nome": "nome 1",
+            "autore": "autore 1",
             "id": "1"
         },
         {
-            "titolo": "titolo 2",
+            "titolo": "post 2",
             "contenuto": "contenuto 2",
-            "nome": "nome 2",
+            "autore": "autore 2",
             "id": "2"
         },
         {
-            "titolo": "titolo 3",
+            "titolo": "post 3",
             "contenuto": "contenuto 3",
-            "nome": "nome 3",
+            "autore": "autore 3",
             "id": "3"
         },
         {
-            "titolo": "titolo 4",
+            "titolo": "post 4",
             "contenuto": "contenuto 4",
-            "nome": "nome 4",
+            "autore": "autore 4",
             "id": "4"
         },
         {
-            "titolo": "titolo 5",
+            "titolo": "post 5",
             "contenuto": "contenuto 5",
-            "nome": "nome 5",
+            "autore": "autore 5",
             "id": "5"
         },
         {
-            "titolo": "titolo 6",
+            "titolo": "post 6",
             "contenuto": "contenuto 6",
-            "nome": "nome 6",
+            "autore": "autore 6",
             "id": "6"
         },
         {
-            "titolo": "titolo 7",
+            "titolo": "post 7",
             "contenuto": "contenuto 7",
-            "nome": "nome 7",
+            "autore": "autore 7",
             "id": "7"
         },
         {
-            "titolo": "titolo 8",
+            "titolo": "post 8",
             "contenuto": "contenuto 8",
-            "nome": "nome 8",
+            "autore": "autore 8",
             "id": "8"
         },
         {
-            "titolo": "titolo 9",
+            "titolo": "post 9",
             "contenuto": "contenuto 9",
-            "nome": "nome 9",
+            "autore": "autore 9",
             "id": "9"
         },
         {
-            "titolo": "titolo 10",
+            "titolo": "post 10",
             "contenuto": "contenuto 10",
-            "nome": "nome 10",
+            "autore": "autore 10",
             "id": "10"
         },
         {
-            "titolo": "titolo 11",
+            "titolo": "post 11",
             "contenuto": "contenuto 11",
-            "nome": "nome 11",
+            "autore": "autore 11",
             "id": "11"
         },
         {
-            "titolo": "titolo 12",
+            "titolo": "post 12",
             "contenuto": "contenuto 12",
-            "nome": "nome 12",
+            "autore": "autore 12",
             "id": "12"
         },
         {
-            "titolo": "titolo 13",
+            "titolo": "post 13",
             "contenuto": "contenuto 13",
-            "nome": "nome 13",
+            "autore": "autore 13",
             "id": "13"
         },
         {
-            "titolo": "titolo 14",
+            "titolo": "post 14",
             "contenuto": "contenuto 14",
-            "nome": "nome 14",
+            "autore": "autore 14",
             "id": "14"
         },
         {
-            "titolo": "titolo 15",
+            "titolo": "post 15",
             "contenuto": "contenuto 15",
-            "nome": "nome 15",
+            "autore": "autore 15",
             "id": "15"
         },
         {
-            "titolo": "titolo 16",
+            "titolo": "post 16",
             "contenuto": "contenuto 16",
-            "nome": "nome 16",
+            "autore": "autore 16",
             "id": "16"
         },
         {
-            "titolo": "titolo 17",
+            "titolo": "post 17",
             "contenuto": "contenuto 17",
-            "nome": "nome 17",
+            "autore": "autore 17",
             "id": "17"
         },
         {
-            "titolo": "titolo 18",
+            "titolo": "post 18",
             "contenuto": "contenuto 18",
-            "nome": "nome 18",
+            "autore": "autore 18",
             "id": "18"
         },
         {
-            "titolo": "titolo 19",
+            "titolo": "post 19",
             "contenuto": "contenuto 19",
-            "nome": "nome 19",
+            "autore": "autore 19",
             "id": "19"
         },
         {
-            "titolo": "titolo 20",
+            "titolo": "post 20",
             "contenuto": "contenuto 20",
-            "nome": "nome 20",
+            "autore": "autore 20",
             "id": "20"
         },
         {
-            "titolo": "titolo 21",
+            "titolo": "post 21",
             "contenuto": "contenuto 21",
-            "nome": "nome 21",
+            "autore": "autore 21",
             "id": "21"
         },
         {
-            "titolo": "titolo 22",
+            "titolo": "post 22",
             "contenuto": "contenuto 22",
-            "nome": "nome 22",
+            "autore": "autore 22",
             "id": "22"
         },
         {
-            "titolo": "titolo 23",
+            "titolo": "post 23",
             "contenuto": "contenuto 23",
-            "nome": "nome 23",
+            "autore": "autore 23",
             "id": "23"
         },
         {
-            "titolo": "titolo 24",
+            "titolo": "post 24",
             "contenuto": "contenuto 24",
-            "nome": "nome 24",
+            "autore": "autore 24",
             "id": "24"
         },
         {
-            "titolo": "titolo 25",
+            "titolo": "post 25",
             "contenuto": "contenuto 25",
-            "nome": "nome 25",
+            "autore": "autore 25",
             "id": "25"
         },
         {
-            "titolo": "titolo 26",
+            "titolo": "post 26",
             "contenuto": "contenuto 26",
-            "nome": "nome 26",
+            "autore": "autore 26",
             "id": "26"
         },
         {
-            "titolo": "titolo 27",
+            "titolo": "post 27",
             "contenuto": "contenuto 27",
-            "nome": "nome 27",
+            "autore": "autore 27",
             "id": "27"
         },
         {
-            "titolo": "titolo 28",
+            "titolo": "post 28",
             "contenuto": "contenuto 28",
-            "nome": "nome 28",
+            "autore": "autore 28",
             "id": "28"
         },
         {
-            "titolo": "titolo 29",
+            "titolo": "post 29",
             "contenuto": "contenuto 29",
-            "nome": "nome 29",
+            "autore": "autore 29",
             "id": "29"
         },
         {
-            "titolo": "titolo 30",
+            "titolo": "post 30",
             "contenuto": "contenuto 30",
-            "nome": "nome 30",
+            "autore": "autore 30",
             "id": "30"
         }
     ],
 
     "comments": [{
-            "nome": "nome 1",
+            "autore": "autore 1",
             "contenuto": "contenuto 1",
             "like": 60,
             "dislike": 39,
             "id": "1"
         },
         {
-            "nome": "nome 2",
+            "autore": "autore 2",
             "contenuto": "contenuto 2",
             "like": 26,
             "dislike": 2,
             "id": "2"
         },
         {
-            "nome": "nome 3",
+            "autore": "autore 3",
             "contenuto": "contenuto 3",
             "like": 95,
             "dislike": 12,
             "id": "3"
         },
         {
-            "nome": "nome 4",
+            "autore": "autore 4",
             "contenuto": "contenuto 4",
             "like": 77,
             "dislike": 70,
             "id": "4"
         },
         {
-            "nome": "nome 5",
+            "autore": "autore 5",
             "contenuto": "contenuto 5",
             "like": 23,
             "dislike": 35,
             "id": "5"
         },
         {
-            "nome": "nome 6",
+            "autore": "autore 6",
             "contenuto": "contenuto 6",
             "like": 23,
             "dislike": 21,
             "id": "6"
         },
         {
-            "nome": "nome 7",
+            "autore": "autore 7",
             "contenuto": "contenuto 7",
             "like": 82,
             "dislike": 18,
             "id": "7"
         },
         {
-            "nome": "nome 8",
+            "autore": "autore 8",
             "contenuto": "contenuto 8",
             "like": 13,
             "dislike": 39,
             "id": "8"
         },
         {
-            "nome": "nome 9",
+            "autore": "autore 9",
             "contenuto": "contenuto 9",
             "like": 71,
             "dislike": 61,
             "id": "9"
         },
         {
-            "nome": "nome 10",
+            "autore": "autore 10",
             "contenuto": "contenuto 10",
             "like": 48,
             "dislike": 99,
             "id": "10"
         },
         {
-            "nome": "nome 11",
+            "autore": "autore 11",
             "contenuto": "contenuto 11",
             "like": 92,
             "dislike": 27,
             "id": "11"
         },
         {
-            "nome": "nome 12",
+            "autore": "autore 12",
             "contenuto": "contenuto 12",
             "like": 75,
             "dislike": 49,
             "id": "12"
         },
         {
-            "nome": "nome 13",
+            "autore": "autore 13",
             "contenuto": "contenuto 13",
             "like": 39,
             "dislike": 27,
             "id": "13"
         },
         {
-            "nome": "nome 14",
+            "autore": "autore 14",
             "contenuto": "contenuto 14",
             "like": 29,
             "dislike": 15,
             "id": "14"
         },
         {
-            "nome": "nome 15",
+            "autore": "autore 15",
             "contenuto": "contenuto 15",
             "like": 35,
             "dislike": 55,
             "id": "15"
         },
         {
-            "nome": "nome 16",
+            "autore": "autore 16",
             "contenuto": "contenuto 16",
             "like": 7,
             "dislike": 7,
             "id": "16"
         },
         {
-            "nome": "nome 17",
+            "autore": "autore 17",
             "contenuto": "contenuto 17",
             "like": 62,
             "dislike": 92,
             "id": "17"
         },
         {
-            "nome": "nome 18",
+            "autore": "autore 18",
             "contenuto": "contenuto 18",
             "like": 27,
             "dislike": 90,
             "id": "18"
         },
         {
-            "nome": "nome 19",
+            "autore": "autore 19",
             "contenuto": "contenuto 19",
             "like": 51,
             "dislike": 44,
             "id": "19"
         },
         {
-            "nome": "nome 20",
+            "autore": "autore 20",
             "contenuto": "contenuto 20",
             "like": 20,
             "dislike": 76,
             "id": "20"
         },
         {
-            "nome": "nome 21",
+            "autore": "autore 21",
             "contenuto": "contenuto 21",
             "like": 30,
             "dislike": 39,
             "id": "21"
         },
         {
-            "nome": "nome 22",
+            "autore": "autore 22",
             "contenuto": "contenuto 22",
             "like": 6,
             "dislike": 87,
             "id": "22"
         },
         {
-            "nome": "nome 23",
+            "autore": "autore 23",
             "contenuto": "contenuto 23",
             "like": 95,
             "dislike": 75,
             "id": "23"
         },
         {
-            "nome": "nome 24",
+            "autore": "autore 24",
             "contenuto": "contenuto 24",
             "like": 93,
             "dislike": 60,
             "id": "24"
         },
         {
-            "nome": "nome 25",
+            "autore": "autore 25",
             "contenuto": "contenuto 25",
             "like": 23,
             "dislike": 16,
             "id": "25"
         },
         {
-            "nome": "nome 26",
+            "autore": "autore 26",
             "contenuto": "contenuto 26",
             "like": 76,
             "dislike": 13,
             "id": "26"
         },
         {
-            "nome": "nome 27",
+            "autore": "autore 27",
             "contenuto": "contenuto 27",
             "like": 75,
             "dislike": 48,
             "id": "27"
         },
         {
-            "nome": "nome 28",
+            "autore": "autore 28",
             "contenuto": "contenuto 28",
             "like": 9,
             "dislike": 5,
             "id": "28"
         },
         {
-            "nome": "nome 29",
+            "autore": "autore 29",
             "contenuto": "contenuto 29",
             "like": 47,
             "dislike": 6,
             "id": "29"
         },
         {
-            "nome": "nome 30",
+            "autore": "autore 30",
             "contenuto": "contenuto 30",
             "like": 10,
             "dislike": 14,
@@ -394,8 +394,8 @@
     ],
 
     "users": [{
-            "nome": "nome 1",
-            "cognome": "cognome 1",
+            "autore": "autore 1",
+            "cogautore": "cogautore 1",
             "username": "username 1",
             "email": "email 1",
             "occupazione": "occupazione 1",
@@ -403,8 +403,8 @@
             "id": "1"
         },
         {
-            "nome": "nome 2",
-            "cognome": "cognome 2",
+            "autore": "autore 2",
+            "cogautore": "cogautore 2",
             "username": "username 2",
             "email": "email 2",
             "occupazione": "occupazione 2",
@@ -412,8 +412,8 @@
             "id": "2"
         },
         {
-            "nome": "nome 3",
-            "cognome": "cognome 3",
+            "autore": "autore 3",
+            "cogautore": "cogautore 3",
             "username": "username 3",
             "email": "email 3",
             "occupazione": "occupazione 3",
@@ -421,8 +421,8 @@
             "id": "3"
         },
         {
-            "nome": "nome 4",
-            "cognome": "cognome 4",
+            "autore": "autore 4",
+            "cogautore": "cogautore 4",
             "username": "username 4",
             "email": "email 4",
             "occupazione": "occupazione 4",
@@ -430,8 +430,8 @@
             "id": "4"
         },
         {
-            "nome": "nome 5",
-            "cognome": "cognome 5",
+            "autore": "autore 5",
+            "cogautore": "cogautore 5",
             "username": "username 5",
             "email": "email 5",
             "occupazione": "occupazione 5",
@@ -439,8 +439,8 @@
             "id": "5"
         },
         {
-            "nome": "nome 6",
-            "cognome": "cognome 6",
+            "autore": "autore 6",
+            "cogautore": "cogautore 6",
             "username": "username 6",
             "email": "email 6",
             "occupazione": "occupazione 6",
@@ -448,8 +448,8 @@
             "id": "6"
         },
         {
-            "nome": "nome 7",
-            "cognome": "cognome 7",
+            "autore": "autore 7",
+            "cogautore": "cogautore 7",
             "username": "username 7",
             "email": "email 7",
             "occupazione": "occupazione 7",
@@ -457,8 +457,8 @@
             "id": "7"
         },
         {
-            "nome": "nome 8",
-            "cognome": "cognome 8",
+            "autore": "autore 8",
+            "cogautore": "cogautore 8",
             "username": "username 8",
             "email": "email 8",
             "occupazione": "occupazione 8",
@@ -466,8 +466,8 @@
             "id": "8"
         },
         {
-            "nome": "nome 9",
-            "cognome": "cognome 9",
+            "autore": "autore 9",
+            "cogautore": "cogautore 9",
             "username": "username 9",
             "email": "email 9",
             "occupazione": "occupazione 9",
@@ -475,8 +475,8 @@
             "id": "9"
         },
         {
-            "nome": "nome 10",
-            "cognome": "cognome 10",
+            "autore": "autore 10",
+            "cogautore": "cogautore 10",
             "username": "username 10",
             "email": "email 10",
             "occupazione": "occupazione 10",
@@ -484,8 +484,8 @@
             "id": "10"
         },
         {
-            "nome": "nome 11",
-            "cognome": "cognome 11",
+            "autore": "autore 11",
+            "cogautore": "cogautore 11",
             "username": "username 11",
             "email": "email 11",
             "occupazione": "occupazione 11",
@@ -493,8 +493,8 @@
             "id": "11"
         },
         {
-            "nome": "nome 12",
-            "cognome": "cognome 12",
+            "autore": "autore 12",
+            "cogautore": "cogautore 12",
             "username": "username 12",
             "email": "email 12",
             "occupazione": "occupazione 12",
@@ -502,8 +502,8 @@
             "id": "12"
         },
         {
-            "nome": "nome 13",
-            "cognome": "cognome 13",
+            "autore": "autore 13",
+            "cogautore": "cogautore 13",
             "username": "username 13",
             "email": "email 13",
             "occupazione": "occupazione 13",
@@ -511,8 +511,8 @@
             "id": "13"
         },
         {
-            "nome": "nome 14",
-            "cognome": "cognome 14",
+            "autore": "autore 14",
+            "cogautore": "cogautore 14",
             "username": "username 14",
             "email": "email 14",
             "occupazione": "occupazione 14",
@@ -520,8 +520,8 @@
             "id": "14"
         },
         {
-            "nome": "nome 15",
-            "cognome": "cognome 15",
+            "autore": "autore 15",
+            "cogautore": "cogautore 15",
             "username": "username 15",
             "email": "email 15",
             "occupazione": "occupazione 15",
@@ -529,8 +529,8 @@
             "id": "15"
         },
         {
-            "nome": "nome 16",
-            "cognome": "cognome 16",
+            "autore": "autore 16",
+            "cogautore": "cogautore 16",
             "username": "username 16",
             "email": "email 16",
             "occupazione": "occupazione 16",
@@ -538,8 +538,8 @@
             "id": "16"
         },
         {
-            "nome": "nome 17",
-            "cognome": "cognome 17",
+            "autore": "autore 17",
+            "cogautore": "cogautore 17",
             "username": "username 17",
             "email": "email 17",
             "occupazione": "occupazione 17",
@@ -547,8 +547,8 @@
             "id": "17"
         },
         {
-            "nome": "nome 18",
-            "cognome": "cognome 18",
+            "autore": "autore 18",
+            "cogautore": "cogautore 18",
             "username": "username 18",
             "email": "email 18",
             "occupazione": "occupazione 18",
@@ -556,8 +556,8 @@
             "id": "18"
         },
         {
-            "nome": "nome 19",
-            "cognome": "cognome 19",
+            "autore": "autore 19",
+            "cogautore": "cogautore 19",
             "username": "username 19",
             "email": "email 19",
             "occupazione": "occupazione 19",
@@ -565,8 +565,8 @@
             "id": "19"
         },
         {
-            "nome": "nome 20",
-            "cognome": "cognome 20",
+            "autore": "autore 20",
+            "cogautore": "cogautore 20",
             "username": "username 20",
             "email": "email 20",
             "occupazione": "occupazione 20",
@@ -575,123 +575,154 @@
         }
     ],
 
-    "albums": [{
+    "albums": [
+        {
+            "titolo":"album 1",
             "image": "image 1",
             "id": "1"
         },
         {
+            "titolo":"album 2",
             "image": "image 2",
             "id": "2"
         },
         {
+            "titolo":"album 3",
             "image": "image 3",
             "id": "3"
         },
         {
+            "titolo":"album 4",
             "image": "image 4",
             "id": "4"
         },
         {
+            "titolo":"album 5",
             "image": "image 5",
             "id": "5"
         },
         {
+            "titolo":"album 6",
             "image": "image 6",
             "id": "6"
         },
         {
+            "titolo":"album 7",
             "image": "image 7",
             "id": "7"
         },
         {
+            "titolo":"album 8",
             "image": "image 8",
             "id": "8"
         },
         {
+            "titolo":"album 9",
             "image": "image 9",
             "id": "9"
         },
         {
+            "titolo":"album 10",
             "image": "image 10",
             "id": "10"
         },
         {
+            "titolo":"album 11",
             "image": "image 11",
             "id": "11"
         },
         {
+            "titolo":"album 12",
             "image": "image 12",
             "id": "12"
         },
         {
+            "titolo":"album 13",
             "image": "image 13",
             "id": "13"
         },
         {
+            "titolo":"album 14",
             "image": "image 14",
             "id": "14"
         },
         {
+            "titolo":"album 15",
             "image": "image 15",
             "id": "15"
         },
         {
+            "titolo":"album 16",
             "image": "image 16",
             "id": "16"
         },
         {
+            "titolo":"album 17",
             "image": "image 17",
             "id": "17"
         },
         {
+            "titolo":"album 18",
             "image": "image 18",
             "id": "18"
         },
         {
+            "titolo":"album 19",
             "image": "image 19",
             "id": "19"
         },
         {
+            "titolo":"album 20",
             "image": "image 20",
             "id": "20"
         },
         {
+            "titolo":"album 21",
             "image": "image 21",
             "id": "21"
         },
         {
+            "titolo":"album 22",
             "image": "image 22",
             "id": "22"
         },
         {
+            "titolo":"album 23",
             "image": "image 23",
             "id": "23"
         },
         {
+            "titolo":"album 24",
             "image": "image 24",
             "id": "24"
         },
         {
+            "titolo":"album 25",
             "image": "image 25",
             "id": "25"
         },
         {
+            "titolo":"album 26",
             "image": "image 26",
             "id": "26"
         },
         {
+            "titolo":"album 27",
             "image": "image 27",
             "id": "27"
         },
         {
+            "titolo":"album 28",
             "image": "image 28",
             "id": "28"
         },
         {
+            "titolo":"album 29",
             "image": "image 29",
             "id": "29"
         },
         {
+            "titolo":"album 30",
             "image": "image 30",
             "id": "30"
         }
