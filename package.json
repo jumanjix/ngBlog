@@ -19,6 +19,11 @@
     "@angular/platform-browser-dynamic": "~12.0.0",
     "@angular/router": "~12.0.0",
     "bootstrap": "^5.1.1",
+<<<<<<< HEAD
+=======
+    "jquery": "^3.6.0",
+    "json-server": "^0.16.3",
+>>>>>>> 9d8c9a4f2de5289355a9c5016902c86dfef36962
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4"
