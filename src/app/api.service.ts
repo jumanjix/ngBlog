@@ -19,7 +19,7 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
-  // *** Operazioni sui post
+  // ***** Operazioni sui post ***** 
   // GET - recupero 
   getPosts(): Observable<Post[]> {
     return this.http.get<Post[]>(this.postsUrl);
@@ -42,7 +42,7 @@ export class ApiService {
   // TODO !!!
 
 
-  // *** Operazioni sugli users
+  // ***** Operazioni sugli users *****
   // GET
   getUsers(): Observable<User[]> {
     return this.http.get<User[]>(this.usersUrl);
@@ -61,7 +61,7 @@ export class ApiService {
   }
 
 
-  // *** Operazioni sugli album
+  // *** Operazioni sugli album *****
   // GET
   getAlbums(): Observable<Album[]> {
     return this.http.get<Album[]>(this.albumUrl);
