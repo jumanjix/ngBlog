@@ -13,9 +13,9 @@ export class ApiService {
   // indirizzo principale json
   private apiUrl: string = "";
   // indirizzi specifici
-  private postsUrl: string = this.apiUrl + "posts";
-  private usersUrl: string = this.apiUrl + "users";
-  private albumUrl: string = this.apiUrl + "album";
+  private postsUrl: string = this.apiUrl + "posts/";
+  private usersUrl: string = this.apiUrl + "users/";
+  private albumUrl: string = this.apiUrl + "album/";
 
   constructor(private http: HttpClient) { }
 
