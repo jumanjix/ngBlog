@@ -1,7 +1,7 @@
 <div class="container pt-5">
     <h2 class="text-center">{{title}}</h2>
-    <div class="row row-cols-1 row-cols-md-3">
-        <div class="row-cols-1 mb-4" *ngFor="let posti of posts">
+    <div class="row ">
+        <div class="row mb-4" *ngFor="let posti of posts">
             <div class="card">
                 <img [src]="posti.imageUrl" class="card-img-top" [alt]="">
                 <div class="card-body">
