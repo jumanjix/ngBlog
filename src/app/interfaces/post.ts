@@ -5,6 +5,6 @@ export interface Post {
     titolo: string;
     contenuto: string;
     autore: string;
-    imageUrl: string,
+    imageUrl: string;
     commenti: Commento[];
 }
