@@ -11,10 +11,12 @@ export class UsersComponent implements OnInit {
 
   users : User[] = [];
 
-  constructor(private apiService : ApiService) { 
-    this.apiService.getUsers().subscribe( data => {
+  constructor(private apiService : ApiService) {
+
+    this.apiService.getUsers().subscribe( data => {  // recupero tutti gli user
       this.users = data;
-    })
+    });
+
   }
 
   ngOnInit(): void {
