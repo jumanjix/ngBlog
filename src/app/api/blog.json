@@ -90,8 +90,8 @@
             "titolo": "post 4",
             "contenuto": "contenuto 4",
             "autore": "autore 4",
-            "id": "assets/img/4",
-            "imageUrl": "4.jpg",
+            "id": "4",
+            "imageUrl": "assets/img/4.jpg",
             "commenti": [{
                     "autore": "autore 1",
                     "contenuto": "contenuto 1",
