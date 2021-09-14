@@ -3,7 +3,7 @@
     <div class="row row-cols-1 row-cols-md-3">
         <div class="col mb-4" *ngFor="let posti of posts">
             <div class="card">
-                <img [src]="posti.imageUrl" class="card-img-top" [alt]="posti.titolo">
+                <img [src]="posti.imageUrl" class="card-img-top" [alt]="">
                 <div class="card-body">
                     <h5 class="card-title">{{posti.titolo}}</h5>
                     <p class="card-text">{{posti.contenuto}}</p>
