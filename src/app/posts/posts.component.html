@@ -1,8 +1,8 @@
-<div class="container pt-5">
+<div class="container pt-5 justify-content-center">
     <h2 class="text-center">{{title}}</h2>
     <div class="row ">
         <div class="row-cols-1 mb-4" *ngFor="let posti of posts">
-            <div class="card" style="width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
                 <img [src]="posti.imageUrl" class="card-img-top" [alt]="posti.titolo">
                 <div class="card-body">
                     <h5 class="card-title">{{posti.titolo}}</h5>
@@ -15,8 +15,8 @@
                             <li *ngFor ="let c of posti.commenti">
                                 <p>{{c.autore}}</p>
                                 <p>{{c.contenuto}}</p>
-                                <p>{{c.like}}</p>
-                                <p>{{c.dislike}}</p>
+                                <p>like: {{c.like}}</p>
+                                <p>dislike: {{c.dislike}}</p>
                             </li>
                         </ul>
                       
