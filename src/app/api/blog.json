@@ -1075,13 +1075,60 @@
     ],
     "albums": [
         {
+            "id": "1",
             "titolo": "album 1",
             "immagini": [
-                "immagine 1",
-                "immagine 2",
-                "immagine 3"
-            ],
-            "id": "1"
+                {
+                    "titolo": "immagine 1",
+                    "descrizione": "descrizione img 1",
+                    "src": "img.jpg" 
+                },
+                {
+                    "titolo": "immagine 2",
+                    "descrizione": "descrizione img 2",
+                    "src": "img.jpg" 
+                },
+                {
+                    "titolo": "immagine 3",
+                    "descrizione": "descrizione img 3",
+                    "src": "img.jpg" 
+                },
+                {
+                    "titolo": "immagine 1",
+                    "descrizione": "descrizione img 1",
+                    "src": "img.jpg" 
+                },
+                {
+                    "titolo": "immagine 1",
+                    "descrizione": "descrizione img 1",
+                    "src": "img.jpg" 
+                },
+                {
+                    "titolo": "immagine 1",
+                    "descrizione": "descrizione img 1",
+                    "src": "img.jpg" 
+                },
+                {
+                    "titolo": "immagine 1",
+                    "descrizione": "descrizione img 1",
+                    "src": "img.jpg" 
+                },
+                {
+                    "titolo": "immagine 1",
+                    "descrizione": "descrizione img 1",
+                    "src": "img.jpg" 
+                },
+                {
+                    "titolo": "immagine 1",
+                    "descrizione": "descrizione img 1",
+                    "src": "img.jpg" 
+                },
+                {
+                    "titolo": "immagine 1",
+                    "descrizione": "descrizione img 1",
+                    "src": "img.jpg" 
+                }
+            ]
         },
         {
             "titolo": "album 2",
