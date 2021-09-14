@@ -1,16 +1,17 @@
 <div class="container">
     <div class="row">
         <div class="col-12 my-5">
-            <h1>Album nel database:</h1><hr>
+            <h1>Qui sono a disposizione ben 20 album contenenti 10 immagini ciascuno,caricati dagli utenti:</h1><br>
+            <h3>Buon scorrimento d'immagini!!</h3><hr>
             <div class="col-8 mx-auto">
                 <ul>
                     <li class="d-flex justify-content-between flex-row border" *ngFor="let a of albums">
                         <a class="product-name" [routerLink]="['/albums/', a.id]">{{a.titolo}}</a>
-                       
+
                     </li>
                 </ul>
             </div>
-            
+
         </div>
     </div>
 </div>
