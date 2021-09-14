@@ -1,26 +1,24 @@
 <div class="container pt-5 justify-content-center">
     <h2 class="text-center">{{title}}</h2>
     <div class="row ">
-        <div class="row-cols-1 mb-4" *ngFor="let posti of posts">
-            <div class="card text-center" style="width: 18rem;">
+        <div class="col-12 mb-4" *ngFor="let posti of posts">
+            <div class="card text-center" style="width: 30rem;">
                 <img [src]="posti.imageUrl" class="card-img-top" [alt]="posti.titolo">
                 <div class="card-body">
                     <h5 class="card-title">{{posti.titolo}}</h5>
                     <p class="card-text">{{posti.contenuto}}</p>
                     <p class="card-text">{{posti.autore}}</p>
-                    <button class="btn btn-primary" (click)="togleIsnewBadge()">Scopri</button>
+                    <button class="btn btn-primary" (click)="togleIsnewBadge()">Commenti</button>
+                    <hr>
 
                     <span *ngIf="showBadge">
-                        <ul>
-                            <li *ngFor ="let c of posti.commenti">
-                                <p>{{c.autore}}</p>
+                        
+                            <span class="card-text" *ngFor ="let c of posti.commenti">
+                                <p >{{c.autore}}</p>
                                 <p>{{c.contenuto}}</p>
                                 <p>like: {{c.like}}</p>
                                 <p>dislike: {{c.dislike}}</p>
-                            </li>
-                        </ul>
-                      
-                        
+                    </span>
                     </span>
                 </div>
             </div>
