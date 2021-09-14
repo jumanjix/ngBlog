@@ -1,9 +1,9 @@
 <div class="container">
     <h2 class="md-3">{{title}}</h2>
     <div class="row row-cols-1 row-cols-md-3">
-        <div class="col mb-4">
+        <div class="col mb-4" *ngFor="let u of posts">
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="u.src" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">La casa di papel</h5>
                     <p class="card-text">Contenuto</p>
