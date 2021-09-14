@@ -1,19 +1,18 @@
-<div class="container">
-    <h2 class="md-3">{{title}}</h2>
+<div class="container pt-5">
+    <h2 class="text-center">{{title}}</h2>
     <div class="row row-cols-1 row-cols-md-3">
-        <div class="col mb-4" *ngFor="let u of posts">
+        <div class="col mb-4" *ngFor="let posti of posts">
             <div class="card">
-                <img src="u.src" class="card-img-top" alt="...">
+                <img [src]="posti.imageUrl" class="card-img-top" [alt]="posti.titolo">
                 <div class="card-body">
-                    <h5 class="card-title">La casa di papel</h5>
-                    <p class="card-text">Contenuto</p>
-                    <p class="card-text">Nome dell'autore</p>
+                    <h5 class="card-title">{{posti.titolo}}</h5>
+                    <p class="card-text">{{posti.contenuto}}</p>
+                    <p class="card-text">{{posti.autore}}</p>
                     <button class="btn btn-primary" (click)="togleIsnewBadge()">Scopri</button>
 
                     <span *ngIf="showBadge">
-                        <p>Commenti</p>
-                        <p> 10 like</p>
-                        <p>11 dislike</p>
+                        <p>{{posti.commenti}}</p>
+                        
                     </span>
                 </div>
             </div>
