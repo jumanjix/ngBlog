@@ -1,16 +1,21 @@
 <div class="container">
-    <div class="row">
-        <div class="col-12 my-5">
-            <h1>Post nel database:</h1><hr>
-            <div class="col-8 mx-auto">
-                <ul>
-                    <li class="d-flex justify-content-between flex-row border" *ngFor="let p of posts">
-                        <a class="product-name" [routerLink]="['/posts/', p.id]">{{p.titolo}}</a>
-                       
-                    </li>
-                </ul>
+    <h2 class="md-3">{{title}}</h2>
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">La casa di papel</h5>
+                    <p class="card-text">Contenuto</p>
+                    <p class="card-text">Nome dell'autore</p>
+                    <button class="btn btn-primary" (click)="togleIsnewBadge()">Scopri</button>
+
+                    <span *ngIf="showBadge">
+                        <p>Commenti</p>
+                        <p> 10 like</p>
+                        <p>11 dislike</p>
+                    </span>
+                </div>
             </div>
-            
         </div>
     </div>
-</div>
