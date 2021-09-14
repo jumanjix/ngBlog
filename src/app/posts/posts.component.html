@@ -1,8 +1,8 @@
 <div class="container pt-5">
     <h2 class="text-center">{{title}}</h2>
-    <div class="row pt-2 ">
+    <div class="row ">
         <div class="row-cols-1 mb-4" *ngFor="let posti of posts">
-            <div class="card">
+            <div class="card" style="width: 18rem;">
                 <img [src]="posti.imageUrl" class="card-img-top" [alt]="posti.titolo">
                 <div class="card-body">
                     <h5 class="card-title">{{posti.titolo}}</h5>
@@ -11,7 +11,11 @@
                     <button class="btn btn-primary" (click)="togleIsnewBadge()">Scopri</button>
 
                     <span *ngIf="showBadge">
-                        <p>{{posti.commenti}}</p>
+                        <ul>
+                            <il *ngFor ="let c of posti.commenti">
+                                {{c.autore}}
+                            </il>
+                        </ul>
                       
                         
                     </span>
