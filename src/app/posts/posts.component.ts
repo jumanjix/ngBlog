@@ -9,7 +9,16 @@ import { Post } from '../interfaces/post';
 })
 export class PostsComponent implements OnInit {
 
+  public title = 'Lista dei posti'
+
+  
+  public showBadge: boolean = false;
+
   posts : Post[] = [];
+
+  public togleIsnewBadge(): void{
+    this.showBadge = !this.showBadge;
+  }
 
   constructor(private apiService : ApiService) { 
     this.apiService.getPosts().subscribe( data => {
