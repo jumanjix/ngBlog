@@ -12,9 +12,12 @@
 
                     <span *ngIf="showBadge">
                         <ul>
-                            <il *ngFor ="let c of posti.commenti">
-                                {{c.autore}}
-                            </il>
+                            <li *ngFor ="let c of posti.commenti">
+                                <p>{{c.autore}}</p>
+                                <p>{{c.contenuto}}</p>
+                                <p>{{c.like}}</p>
+                                <p>{{c.dislike}}</p>
+                            </li>
                         </ul>
                       
                         
