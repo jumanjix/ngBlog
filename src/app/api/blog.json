@@ -1123,6 +1123,7 @@
     {
       "id": "1",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "titolo": "Viaggi",
       "immagini": [
         {
@@ -1131,98 +1132,142 @@
           "src": "prova.jpg"
 =======
       "titolo": "album 1",
+=======
+      "titolo": "Viaggi",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Viaggi",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "prova.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "viaggio.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "viaggio.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "viaggio2.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "viaggio2.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "viaggio3.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "viaggio3.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "viaggio4.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "viaggio4.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "viaggio5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "viaggio5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "viaggio6.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "viaggio6.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "viaggio7.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "viaggio7.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "viaggio8.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "viaggio8.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 10",
           "descrizione": "descrizione img 10",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "viaggio9.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "viaggio9.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "2",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Gaming",
       "immagini": [
@@ -1232,98 +1277,142 @@
           "src": "gaming.jpg"
 =======
       "titolo": "album 2",
+=======
+      "titolo": "Gaming",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Gaming",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming2.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming2.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming3.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming3.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming4.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming4.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming6.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming6.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming7.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming7.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming8.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming8.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming9.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming9.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 10",
           "descrizione": "descrizione img 10",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming10.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming10.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "3",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Città",
       "immagini": [
@@ -1333,98 +1422,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 3",
+=======
+      "titolo": "Città",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Città",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "4",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Smartphone",
       "immagini": [
@@ -1434,98 +1567,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 4",
+=======
+      "titolo": "Smartphone",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Smartphone",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "5",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Tv",
       "immagini": [
@@ -1535,98 +1712,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 5",
+=======
+      "titolo": "Tv",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Televisori",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "6",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Serie tv",
       "immagini": [
@@ -1636,98 +1857,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 6",
+=======
+      "titolo": "Serie tv",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Serie tv",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "7",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Film",
       "immagini": [
@@ -1737,98 +2002,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 7",
+=======
+      "titolo": "Film",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Film",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "8",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Auto",
       "immagini": [
@@ -1838,98 +2147,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 8",
+=======
+      "titolo": "Auto",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Auto",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "9",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Moto",
       "immagini": [
@@ -1939,98 +2292,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 9",
+=======
+      "titolo": "Moto",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Moto",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "10",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Sport",
       "immagini": [
@@ -2040,98 +2437,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 10",
+=======
+      "titolo": "Sport",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Sport",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "11",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Libri",
       "immagini": [
@@ -2141,98 +2582,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 11",
+=======
+      "titolo": "Libri",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Libri",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "12",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Design",
       "immagini": [
@@ -2242,98 +2727,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 12",
+=======
+      "titolo": "Design",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Design",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "13",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Casa",
       "immagini": [
@@ -2343,98 +2872,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 13",
+=======
+      "titolo": "Casa",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Casa",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "14",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Fiori",
       "immagini": [
@@ -2444,98 +3017,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 14",
+=======
+      "titolo": "Fiori",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Fiori",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "15",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Animali",
       "immagini": [
@@ -2545,98 +3162,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 15",
+=======
+      "titolo": "Animali",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Panda",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "16",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Moda",
       "immagini": [
@@ -2646,98 +3307,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 16",
+=======
+      "titolo": "Moda",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Moda",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "17",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Cucina",
       "immagini": [
@@ -2747,98 +3452,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 17",
+=======
+      "titolo": "Cucina",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Cucina",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "18",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Vino",
       "immagini": [
@@ -2848,98 +3597,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 18",
+=======
+      "titolo": "Vino",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Vino",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "19",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Manga",
       "immagini": [
@@ -2949,98 +3742,142 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 19",
+=======
+      "titolo": "Manga",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Manga",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
-          "src": "gaming5.jpg"
-=======
-          "src": "img.jpg"
->>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
 <<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
+        },
+        {
+          "titolo": "immagine 10",
+          "descrizione": "descrizione img 10",
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "src": "gaming5.jpg"
+=======
+          "src": "img.jpg"
+>>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     },
     {
       "id": "20",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "titolo": "Musica",
       "immagini": [
@@ -3050,99 +3887,146 @@
           "src": "gaming5.jpg"
 =======
       "titolo": "album 20",
+=======
+      "titolo": "Musica",
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
       "immagini": [
         {
-          "titolo": "immagine 1",
+          "titolo": "Musica",
           "descrizione": "descrizione img 1",
+<<<<<<< HEAD
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 3",
           "descrizione": "descrizione img 3",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 4",
           "descrizione": "descrizione img 4",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 5",
           "descrizione": "descrizione img 5",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 6",
           "descrizione": "descrizione img 6",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 7",
           "descrizione": "descrizione img 7",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 8",
           "descrizione": "descrizione img 8",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 9",
           "descrizione": "descrizione img 9",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         },
         {
           "titolo": "immagine 10",
           "descrizione": "descrizione img 10",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "src": "gaming5.jpg"
 =======
           "src": "img.jpg"
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+          "src": "gaming5.jpg"
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
         }
       ]
     }
   ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> c14d9f8ac66ac208bfa91e6d87a557166f464a77
+=======
+}
+>>>>>>> 8c63cee1aa4cda0438d25a1c8a1e2ff90e8e47da
