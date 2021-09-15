@@ -15,13 +15,16 @@ export class UsersComponent implements OnInit {
 
   constructor(private apiService : ApiService, private modalService : NgbModal) {
 
-    this.apiService.getUsers().subscribe( data => {  // recupero tutti gli user
-      this.users = data;
-    });
+   
 
   }
 
   ngOnInit(): void {
+    this.apiService.getUsers().subscribe( data => {  // recupero tutti gli user
+      this.users = data;
+      console.log(data);
+      
+    });
   }
 
   // prende l'operazione da fare (create, delete, edit) e l'evenutuale utente su cui operare
@@ -29,6 +32,13 @@ export class UsersComponent implements OnInit {
     const modalRef = this.modalService.open(ModalComponent);
     modalRef.componentInstance.user = user;
     modalRef.componentInstance.operation = operation;
+    modalRef.closed.subscribe( result => {
+      console.log('chiamo ngoninit');
+      console.log(result);
+      
+      this.ngOnInit();
+    })
+    
   }
 
 }
