@@ -13,11 +13,7 @@ export class AlbumsComponent implements OnInit {
 
   albums : Album[] = [];
   showNavigationIndicators = true;
-  model = {
-    left: true,
-    middle: false,
-    right: false
-  };
+
 
   constructor(private apiService : ApiService, config: NgbCarouselConfig) {
     this.apiService.getAlbums().subscribe( data => {

@@ -70,11 +70,10 @@ export class ModalComponent implements OnInit {
 
       this.apiService.deleteUser(this.user.id).subscribe( result => {
         console.log('mi chiama');
-        
-        this.ngOnInit();
+        console.log(result);
+                
       });      
     }
-
-    this.activeModal.close("Submit");   
+    this.activeModal.close("Done");   
   }
 }
