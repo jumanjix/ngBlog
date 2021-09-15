@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from './modal/modal.component';
+import { AlbumModalComponent } from './album-modal/album-modal.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ModalComponent } from './modal/modal.component';
     UsersComponent,
     AlbumsComponent,
     HomeComponent,
-    ModalComponent
+    ModalComponent,
+    AlbumModalComponent
   ],
   imports: [
     BrowserModule,
