@@ -24,9 +24,11 @@ export class UsersComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  openEdit(user: User) {
+  // prende l'operazione da fare (create, delete, edit) e l'evenutuale utente su cui operare
+  openModal(operation : string, user?: User) {
     const modalRef = this.modalService.open(ModalComponent);
     modalRef.componentInstance.user = user;
+    modalRef.componentInstance.operation = operation;
   }
 
 }
