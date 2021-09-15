@@ -4,7 +4,7 @@
             <h1>Dai un'occhiata ad uno dei 20 album caricati dagli utenti:</h1><br>
             <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
               <div class="container-fluid">
-                <a class="navbar-brand"></a>
+                <a class="navbar-brand"><button type="button" class="btn btn-outline-primary">+ Aggiungi Album</button></a>
                 <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-primary" type="submit">Cerca</button>
@@ -107,7 +107,7 @@
               </ng-template>
             </ngb-carousel>
 
-            <button type="button" class="btn btn-outline-primary">Aggiungi</button>
+
             <button type="button" class="btn btn-outline-danger">Modifica</button>
             <button type="button" class="btn btn-outline-dark">Elimina</button>
 
@@ -115,41 +115,5 @@
           </div>
         </div>
     </div>
-</div>
-
-
-
-
-<!--
- <ng-template ngbSlide *ngFor="let i of a.immagini">
-                <div class="picsum-img-wrapper">
-                  <img src="" alt="Random second slide">
-                </div>
-                <div class="carousel-caption">
-                  <h3>{{i.titolo}}</h3>
-                  <p>{{i.descrizione}}</p>
-                </div>
-              </ng-template>
-              <ng-template ngbSlide *ngFor="let i of a.immagini">
-                <div class="picsum-img-wrapper">
-                  <img src="" alt="Random second slide">
-                </div>
-                <div class="carousel-caption">
-                  <h3>{{i.titolo}}</h3>
-                  <p>{{i.descrizione}}</p>
-                </div>
-              </ng-template>
-              <ng-template ngbSlide *ngFor="let i of a.immagini">
-                <div class="picsum-img-wrapper">
-                  <img src="" alt="Random second slide">
-                </div>
-                <div class="carousel-caption">
-                  <h3>{{i.titolo}}</h3>
-                  <p>{{i.descrizione}}</p>
-                </div>
-              </ng-template>
-
-*ngFor="let a of albums"
-<a class="product-name" [routerLink]="['/albums/', a.id]">{{a.titolo}}</a>-->
 
 
