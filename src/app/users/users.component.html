@@ -27,8 +27,7 @@
                                     <input type="file" class="form-control" id="proPicFile">
                                 </div>
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Nome Utente"
-                                        aria-label="Nome Utente">
+                                    <input type="text" class="form-control" placeholder="Nome Utente" aria-label="Nome Utente">
                                 </div>
                             </div>
                             <div class="col">
@@ -36,8 +35,7 @@
                                     <input type="text" class="form-control" placeholder="Cognome" aria-label="Cognome">
                                 </div>
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Occupazione"
-                                        aria-label="Occupazione">
+                                    <input type="text" class="form-control" placeholder="Occupazione" aria-label="Occupazione">
                                 </div>
                                 <div class="mb-3">
                                     <input type="text" class="form-control" placeholder="Email" aria-label="Email">
@@ -82,21 +80,18 @@
                     </button>
 
                     <!-- Modal di eliminazione -->
-                    <div class="modal fade" id="modalElimina" tabindex="-1" aria-labelledby="modalEliminaLabel"
-                        aria-hidden="true">
+                    <div class="modal fade" id="modalElimina" tabindex="-1" aria-labelledby="modalEliminaLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="modalEliminaLabel">Elimina Utente</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     Stai per eliminare {{u.nome | uppercase}} {{u.cognome | uppercase}}.
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Annulla</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
                                     <button type="button" class="btn btn-danger">Elimina</button>
                                 </div>
                             </div>
