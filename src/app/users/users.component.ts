@@ -22,4 +22,10 @@ export class UsersComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  modificaUtente(user : User) {
+    console.log(user);
+    
+    this.apiService.putUser(user).subscribe( result => {});
+  }
+
 }
