@@ -2,55 +2,12 @@
     <h2 class="text-center">Utenti</h2>
 
     <div class="d-flex justify-content-end">
-        <!-- Aggiungi Nuovo Utente -->
-        <button type="button" class="btn btn-primary mb-4" data-bs-toggle="modal" data-bs-target="#modalNuovo">
+        <!-- Aggiungi Nuovo Utente - Chiama il component Modal con la modal di aggiunta nuovo -->
+        <button type="button" class="btn btn-primary mb-4" (click)="openModal('create')">
             + Aggiungi Utente
         </button>
     </div>
 
-    <!-- Modal di creazione nuovo utente -->
-    <div class="modal fade" id="modalNuovo" tabindex="-1" aria-labelledby="modalNuovoLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalNuovoLabel">Crea Nuovo Utente</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form action="">
-                        <div class="row pt-3">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="file" class="form-control" id="proPicFile">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Nome Utente" aria-label="Nome Utente">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Cognome" aria-label="Cognome">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Occupazione" aria-label="Occupazione">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Email" aria-label="Email">
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
-                    <button type="button" class="btn btn-primary">Aggiungi Utente</button>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="row row-cols-3 g-4">
         <div class="col justify-content-center" *ngFor="let u of users">
 
@@ -73,93 +30,19 @@
                     </div>
                 </div>
 
-                <div class="card-footer">
+                <div class="card-footer mt-auto">
                     <!-- Elimina Utente -->
-                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalElimina">
+                    <button type="button" class="btn btn-danger" (click)="openModal('delete', u)">
                         Elimina
                     </button>
 
-                    <!-- Modal di eliminazione -->
-                    <div class="modal fade" id="modalElimina" tabindex="-1" aria-labelledby="modalEliminaLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="modalEliminaLabel">Elimina Utente</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    Stai per eliminare {{u.nome | uppercase}} {{u.cognome | uppercase}}.
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Annulla</button>
-                                    <button type="button" class="btn btn-danger">Elimina</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
 
-
-                    <!-- Modifica Utente -->
-                    <button type="button" class="btn btn-warning" data-bs-toggle="modal"
-                        data-bs-target="#modalModifica">
-                        Modifica
+                    <!-- Modifica Utente - Chiama il component Modal con la modal di modifica -->
+                    <button type="button" class="btn btn-warning" (click)="openModal('edit', u)">Modifica
                     </button>
 
-                    <!-- Modal di modifica -->
-                    <div class="modal fade" id="modalModifica" tabindex="-1" aria-labelledby="modalModificaLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="modalModificaLabel">Modifica Utente</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <form #form="ngForm">
-                                        <div class="row pt-3">
-                                            <div class="col">
-                                                <div class="mb-3">
-                                                    <label for="Nome" class="form-label">Nome:</label>
-                                                    <input type="text" class="form-control" id="Nome" name="Nome" aria-label="Nome" [(ngModel)]="u.nome">
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label for="NomeUtente" class="form-label">Nome Utente:</label>
-                                                    <input type="text" class="form-control" id="NomeUtente" name="NomeUtente" aria-label="Nome Utente" [(ngModel)]="u.username">
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label for="proPicFile" class="form-label">Immagine Profilo:</label>
-                                                    <input type="file" class="form-control" id="proPicFile" name="proPicFile" [(ngModel)]="u.proPic">
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="mb-3">
-                                                    <label for="Cognome" class="form-label">Cognome:</label>
-                                                    <input type="text" class="form-control" id="Cognome" name="Cognome" aria-label="Cognome" [(ngModel)]="u.cognome">
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label for="Email" class="form-label">E-mail:</label>
-                                                    <input type="text" class="form-control" id="Email" name="Email" aria-label="Email" [(ngModel)]="u.email">
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label for="Occupazione" class="form-label">Occupazione:</label>
-                                                    <input type="text" class="form-control" id="Occupazione" name="Occupazione" aria-label="Occupazione" [(ngModel)]="u.occupazione">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Annulla</button>
-                                    <button type="button" class="btn btn-success">Salva Modifiche</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
 
                 </div>
 
