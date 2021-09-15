@@ -12,7 +12,7 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 export class AlbumsComponent implements OnInit {
 
   albums : Album[] = [];
-  showNavigationIndicators = true;
+
 
 
   constructor(private apiService : ApiService, config: NgbCarouselConfig) {

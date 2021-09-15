@@ -6,3 +6,7 @@
 .thumb {
     display: table!important;
 }
+
+.card-footer {
+    border-top: none;
+}

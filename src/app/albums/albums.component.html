@@ -14,7 +14,7 @@
             <hr>
             <div *ngFor="let a of albums" class="mb-5">
               <h3>{{a.titolo}}</h3>
-            <ngb-carousel [showNavigationIndicators]="showNavigationIndicators" >
+            <ngb-carousel>
               <ng-template ngbSlide *ngFor="let i of a.immagini">
                 <div class="picsum-img-wrapper">
                   <img src="../../assets/albumpics/{{i.src}}" alt="Random first slide"  class="mh-100" class="mw-80" style="width: 100%; height: 50vh">
@@ -106,9 +106,8 @@
                 </div>
               </ng-template>
             </ngb-carousel>
-
-
-            <button type="button" class="btn btn-outline-danger">Modifica</button>
+            <br>
+            <button type="button" class="btn btn-outline-danger">Modifica</button>&#160;
             <button type="button" class="btn btn-outline-dark">Elimina</button>
 
 

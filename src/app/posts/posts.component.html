@@ -57,7 +57,6 @@
                     <p class="card-text">{{posti.autore}}</p>
                     <button class="btn btn-primary" (click)="togleIsnewBadge()">Commenti</button>
                     <hr>
-
                     <div *ngIf="showBadge">
 
                         <span class="card-text " *ngFor="let c of posti.commenti">
@@ -66,8 +65,7 @@
                                 <p class="material-icons  card-text">thumb_up</p>
                                 <p class="thumb"> {{c.like}}</p>
                                 <p class="material-icons  card-text">thumb_down</p>
-                                <p class="thumb"> {{c.dislike}}</p>
-                        <hr>
+                                <p class="thumb"> {{c.dislike}}</p><hr>
                         </span>
                         <div class="card-footer">
 
@@ -90,14 +88,12 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div class="card-footer">
                         <!-- Elimina post -->
                         <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalElimina">
                                 Elimina
                             </button>
-
                         <!-- Modal di eliminazione -->
                         <div class="modal fade" id="modalElimina" tabindex="-1" aria-labelledby="modalEliminaLabel" aria-hidden="true">
                             <div class="modal-dialog">
@@ -116,7 +112,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                         <!-- Modifica post -->
                         <button type="button" class="btn btn-warning mx-2" data-bs-toggle="modal" data-bs-target="#modalModifica">
