@@ -1,0 +1,12 @@
+.material-icons {
+    cursor: pointer;
+    display: inherit!important;
+}
+
+.thumb {
+    display: table!important;
+}
+
+.card-footer {
+    border-top: none;
+}
