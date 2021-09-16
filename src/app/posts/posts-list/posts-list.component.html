@@ -56,7 +56,8 @@
                     <p class="card-text">{{posti.contenuto}}</p>
                     <p class="card-text">{{posti.autore}}</p>
                     <button class="btn btn-primary" (click)="togleIsnewBadge(posti.id)">Commenti</button>
-                    <br><br>
+
+                    <hr>
                     <div *ngIf="showBadge[posti.id]">
 
                         <span class="card-text " *ngFor="let c of posti.commenti">
@@ -81,6 +82,10 @@
                         </span>
 
                     </div>
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalModificaPost" [routerLink]="['/posts-edit']">
+                        Modifica Post
+                    </button>
+
                     <!-- <div class="card-footer">
 
                             Modal di eliminazione
