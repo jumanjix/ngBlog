@@ -56,7 +56,7 @@
                     <p class="card-text">{{posti.contenuto}}</p>
                     <p class="card-text">{{posti.autore}}</p>
                     <button class="btn btn-primary" (click)="togleIsnewBadge()">Commenti</button>
-                    <br><br>
+                    <hr>
                     <div *ngIf="showBadge">
 
                         <span class="card-text " *ngFor="let c of posti.commenti">
@@ -65,26 +65,11 @@
                                 <p class="material-icons  card-text">thumb_up</p>
                                 <p class="thumb"> {{c.like}}</p>
                                 <p class="material-icons  card-text">thumb_down</p>
-                                <p class="thumb"> {{c.dislike}}</p><br>
-
-                        <!-- Elimina commenti -->
-                        <div>
-                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalElimina">
-                                Elimina
-                            </button>
-                        <!-- Modifica commenti -->
-                        <button type="button" class="btn btn-warning mx-2" data-bs-toggle="modal" data-bs-target="#modalModifica">
-                            Modifica
-                        </button>
-                        <hr>
-                        </div>
-
+                                <p class="thumb"> {{c.dislike}}</p><hr>
                         </span>
-                    </div>
-                    <!-- 
-                        <div>
+                        <div class="card-footer">
 
-                             Modal di eliminazione
+                            <!-- Modal di eliminazione -->
                             <div class="modal fade" id="modalElimina" tabindex="-1" aria-labelledby="modalEliminaLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
@@ -102,23 +87,19 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
-                    <!---->
-
-                    <!---->
-
-                    <!--                     
-                    <div>
-                       
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <!-- Elimina post -->
                         <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalElimina">
                                 Elimina
                             </button>
-                    
+                        <!-- Modal di eliminazione -->
                         <div class="modal fade" id="modalElimina" tabindex="-1" aria-labelledby="modalEliminaLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="modalEliminaLabel">Elimina Post</h5>
+                                        <h5 class="modal-title" id="modalEliminaLabel">Elimina Utente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -132,12 +113,12 @@
                             </div>
                         </div>
 
-                        //Modifica post
+                        <!-- Modifica post -->
                         <button type="button" class="btn btn-warning mx-2" data-bs-toggle="modal" data-bs-target="#modalModifica">
                                 Modifica
                             </button>
 
-                        //Modal di modifica
+                        <!-- Modal di modifica -->
                         <div class="modal fade" id="modalModifica" tabindex="-1" aria-labelledby="modalModificaLabel" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
@@ -175,8 +156,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
+
         </div>
-    </div>
