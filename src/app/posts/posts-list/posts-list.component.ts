@@ -2,10 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ApiService } from 'src/app/api.service';
 import { Post } from 'src/app/interfaces/post';
 
-
-
 @Component({
-  selector: 'app-posts',
+  selector: 'app-posts-list',
   templateUrl: './posts-list.component.html',
   styleUrls: ['./posts-list.component.css']
 })
@@ -14,12 +12,19 @@ export class PostsListComponent implements OnInit {
   public title = 'Lista dei posti'
 
   
-  public showBadge: boolean = false;
+  public showBadge: Array<boolean> = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
 
   posts : Post[] = [];
 
-  public togleIsnewBadge(): void{
-    this.showBadge = !this.showBadge;
+  public setArrayFalse(array: boolean[]) {
+    for (let i=0; i<array.length;i++) {
+      array[i]=false;
+    }
+  }
+
+  public togleIsnewBadge(index : number): void{
+    this.setArrayFalse(this.showBadge);
+    this.showBadge[index] = !this.showBadge[index];
   }
 
   constructor(private apiService : ApiService) { 

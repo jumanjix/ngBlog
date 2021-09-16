@@ -55,9 +55,9 @@
                     <h5 class="card-title">{{posti.titolo | uppercase}}</h5><br>
                     <p class="card-text">{{posti.contenuto}}</p>
                     <p class="card-text">{{posti.autore}}</p>
-                    <button class="btn btn-primary" (click)="togleIsnewBadge()">Commenti</button>
+                    <button class="btn btn-primary" (click)="togleIsnewBadge(posti.id)">Commenti</button>
                     <br><br>
-                    <div *ngIf="showBadge">
+                    <div *ngIf="showBadge[posti.id]">
 
                         <span class="card-text " *ngFor="let c of posti.commenti">
                                 <p> {{c.autore}}</p><br>
