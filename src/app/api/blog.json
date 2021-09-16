@@ -1108,7 +1108,7 @@
       "username": "tyweed",
       "email": "hello@weed.com",
       "occupazione": "elettricista",
-      "proPic": "",
+      "proPic": "pic1.jpg",
       "followers": 0,
       "id": 21
     },
@@ -1118,7 +1118,7 @@
       "username": "ffunghi",
       "email": "ifunghu@hmail.com",
       "occupazione": "coltivatore tartufi",
-      "proPic": "",
+      "proPic": "pic2.jpg",
       "followers": 0,
       "id": 70
     },
@@ -1128,7 +1128,7 @@
       "username": "joko",
       "email": "j@me.ng",
       "occupazione": "calciatore",
-      "proPic": "",
+      "proPic": "pic3.jpg",
       "followers": 0,
       "id": 58
     },
@@ -1138,7 +1138,7 @@
       "username": "goofo",
       "email": "bert",
       "occupazione": "zas",
-      "proPic": "",
+      "proPic": "pic4.jpg",
       "followers": 0,
       "id": 74
     },
@@ -1148,7 +1148,7 @@
       "username": "tuuu",
       "email": "bert",
       "occupazione": "bert",
-      "proPic": "",
+      "proPic": "pic5.jpg",
       "followers": 0,
       "id": 27
     },
@@ -1158,7 +1158,7 @@
       "username": "brtyuu",
       "email": "ners",
       "occupazione": "musicista",
-      "proPic": "",
+      "proPic": "pic1.jpg",
       "followers": 0,
       "id": 49
     },
@@ -1168,7 +1168,7 @@
       "username": "helloworld",
       "email": "ciao@mail.com",
       "occupazione": "disoccupato",
-      "proPic": "",
+      "proPic": "pic10.jpg",
       "followers": 0,
       "id": 195
     },
@@ -1178,7 +1178,7 @@
       "username": "tytyty",
       "email": "morky@mindy.net",
       "occupazione": "paese",
-      "proPic": "",
+      "proPic": "pic15.jpg",
       "followers": 0,
       "id": 136
     },
@@ -1188,7 +1188,7 @@
       "username": "rockway",
       "email": "pit@gorico.de",
       "occupazione": "personaggio",
-      "proPic": "",
+      "proPic": "pic12.jpg",
       "followers": 0,
       "id": 127
     },
@@ -1198,7 +1198,7 @@
       "username": "cc",
       "email": "c@c.c",
       "occupazione": "lettera C",
-      "proPic": "",
+      "proPic": "pic21.jpg",
       "followers": 0,
       "id": 59
     },
@@ -1208,9 +1208,28 @@
       "username": "pp",
       "email": "ewew",
       "occupazione": "panificatore",
-      "proPic": "",
+      "proPic": "pic23.jpg",
       "followers": 0,
       "id": 115
+    },
+    {
+      "id": 196,
+      "proPic": "pic18.jpg",
+      "nome": "ashlee",
+      "cognome": "jones",
+      "username": "ashjo",
+      "email": "ajones@mymail.org",
+      "occupazione": "scacciacani"
+    },
+    {
+      "nome": "",
+      "cognome": "",
+      "username": "",
+      "email": "",
+      "occupazione": "",
+      "proPic": "pic15.jpg",
+      "followers": 0,
+      "id": 32
     }
   ],
   "albums": [
