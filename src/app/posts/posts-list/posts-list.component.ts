@@ -6,8 +6,8 @@ import { Post } from 'src/app/interfaces/post';
 
 @Component({
   selector: 'app-posts',
-  templateUrl: './posts.component.html',
-  styleUrls: ['./posts.component.css']
+  templateUrl: './posts-list.component.html',
+  styleUrls: ['./posts-list.component.css']
 })
 export class PostsListComponent implements OnInit {
 
