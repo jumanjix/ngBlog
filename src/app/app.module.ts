@@ -15,6 +15,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from './modal/modal.component';
 import { AlbumModalComponent } from './album-modal/album-modal.component';
 import { PostsEditComponent } from './posts/posts-edit/posts-edit.component';
+import { PostsListComponent } from './posts/posts-list/posts-list.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { PostsEditComponent } from './posts/posts-edit/posts-edit.component';
     ModalComponent,
     AlbumModalComponent,
     PostsEditComponent,
+    PostsListComponent,
  
   ],
   imports: [
