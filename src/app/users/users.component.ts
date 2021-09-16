@@ -20,8 +20,11 @@ export class UsersComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log('chiamo ngoninit');
     this.apiService.getUsers().subscribe( data => {  // recupero tutti gli user
       this.users = data;
+      console.log('ngoninit data:');
+      
       console.log(data);
       
     });
@@ -33,10 +36,40 @@ export class UsersComponent implements OnInit {
     modalRef.componentInstance.user = user;
     modalRef.componentInstance.operation = operation;
     modalRef.closed.subscribe( result => {
-      console.log('chiamo ngoninit');
+      console.log('dati che tornano dalla modal:');
+      
       console.log(result);
       
-      this.ngOnInit();
+      switch(operation) {
+
+        case "create" : {
+          console.log("creo nuovo utente");
+          
+          this.apiService.postUser(result).subscribe( res => {
+            console.log(res);  
+            this.ngOnInit();          
+          });
+          break;
+        }
+        case "edit" : {
+          console.log("modifico utente");
+          
+          this.apiService.putUser(result).subscribe( res => {
+            console.log(res);  
+            this.ngOnInit();          
+          });
+          break;
+        }
+        case "delete" : {
+          console.log("elimino utente");
+          
+          this.apiService.deleteUser(result.id).subscribe( res => {
+            console.log(res);    
+            this.ngOnInit();                
+          });     
+          break;
+        }
+      }
     })
     
   }
