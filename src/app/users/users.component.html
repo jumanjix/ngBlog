@@ -2,17 +2,15 @@
     <h2 class="text-center">Utenti</h2>
 
     <div class="d-flex justify-content-end">
-        <!-- Aggiungi Nuovo Utente - Chiama il component Modal con la modal di aggiunta nuovo -->
+        <!-- Bottone Aggiungi Nuovo Utente - Chiama il component Modal con la modal di aggiunta nuovo utente -->
         <button type="button" class="btn btn-primary mb-4" (click)="openModal('create')">
             + Aggiungi Utente
         </button>
     </div>
 
     <div class="row row-cols-3 g-4">
-        <div class="col justify-content-center" *ngFor="let u of users">
-
+        <div class="col justify-content-center" *ngFor="let u of users"> <!-- per ogni user una card -->
             <div class="card h-100">
-
                 <div class="row g-0 ps-2 pt-2">
                     <div class="col-5 pt-2">
                         <img src="../../assets/propics/{{u.proPic}}" alt="propic" class="img-fluid">
@@ -29,7 +27,7 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- Bottoni Card che attivano il modal component -->
                 <div class="card-footer mt-auto d-flex justify-content-between">
                     <!-- Elimina Utente -->
                     <button type="button" class="btn btn-danger mx-2" (click)="openModal('delete', u)">
@@ -39,9 +37,6 @@
                     <!-- Modifica Utente - Chiama il component Modal con la modal di modifica -->
                     <button type="button" class="btn btn-warning mx-2" (click)="openModal('edit', u)">Modifica
                     </button>
-
-
-
                 </div>
 
             </div>

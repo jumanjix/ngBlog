@@ -25,7 +25,8 @@
                         </div>
                         <div class="mb-3">
                             <label for="proPicFile" class="form-label">Immagine Profilo:</label>
-                            <input type="file" class="form-control" id="proPicFile" name="proPicFile">
+                            <input type="text" class="form-control" id="proPicFile" name="proPicFile"
+                            aria-label="Immagine Profilo Utente" [(ngModel)]="user.proPic">
                         </div>
                     </div>
                     <div class="col">

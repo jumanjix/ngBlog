@@ -910,7 +910,7 @@
       "occupazione": "alieno",
       "followers": 31,
       "proPic": "pic12.jpg",
-      "id": "1"
+      "id": 1
     },
     {
       "nome": "linda",
@@ -920,7 +920,7 @@
       "occupazione": "lampionista",
       "followers": 40,
       "proPic": "pic19.jpg",
-      "id": "2"
+      "id": 2
     },
     {
       "nome": "pippo",
@@ -930,37 +930,37 @@
       "occupazione": "panificatore",
       "followers": 8,
       "proPic": "pic23.jpg",
-      "id": "3"
+      "id": 3
     },
     {
-      "nome": "nome 4",
-      "cognome": "cognome 4",
-      "username": "username 4",
-      "email": "email 4",
-      "occupazione": "occupazione 4",
+      "nome": "giggino",
+      "cognome": "giggetto",
+      "username": "gggg",
+      "email": "email@4.com",
+      "occupazione": "parafulmine",
       "followers": 85,
       "proPic": "pic18.jpg",
-      "id": "4"
+      "id": 4
     },
     {
-      "nome": "nome 5",
-      "cognome": "cognome 5",
-      "username": "username 5",
-      "email": "email 5",
-      "occupazione": "occupazione 5",
+      "nome": "jamir",
+      "cognome": "ockwaii",
+      "username": "rockway",
+      "email": "jamir@me.com",
+      "occupazione": "musicista",
       "followers": 96,
       "proPic": "pic16.jpg",
-      "id": "5"
+      "id": 5
     },
     {
-      "nome": "nome 6",
-      "cognome": "cognome 6",
-      "username": "username 6",
-      "email": "email 6",
-      "occupazione": "occupazione 6",
+      "nome": "Marta",
+      "cognome": "carogna",
+      "username": "carognaM",
+      "email": "marta@car.es",
+      "occupazione": "sicaria",
       "followers": 25,
       "proPic": "pic24.jpg",
-      "id": "6"
+      "id": 6
     },
     {
       "nome": "nome 7",
@@ -970,7 +970,7 @@
       "occupazione": "occupazione 7",
       "followers": 81,
       "proPic": "pic20.jpg",
-      "id": "7"
+      "id": 7
     },
     {
       "nome": "nome 8",
@@ -980,7 +980,7 @@
       "occupazione": "occupazione 8",
       "followers": 88,
       "proPic": "pic22.jpg",
-      "id": "8"
+      "id": 8
     },
     {
       "nome": "nome 9",
@@ -990,7 +990,7 @@
       "occupazione": "occupazione 9",
       "followers": 47,
       "proPic": "pic21.jpg",
-      "id": "9"
+      "id": 9
     },
     {
       "nome": "nome 10",
@@ -1000,7 +1000,7 @@
       "occupazione": "occupazione 10",
       "followers": 65,
       "proPic": "pic17.jpg",
-      "id": "10"
+      "id": 10
     },
     {
       "nome": "nome 11",
@@ -1010,7 +1010,7 @@
       "occupazione": "occupazione 11",
       "followers": 96,
       "proPic": "pic15.jpg",
-      "id": "11"
+      "id": 11
     },
     {
       "nome": "nome 12",
@@ -1020,7 +1020,7 @@
       "occupazione": "occupazione 12",
       "followers": 81,
       "proPic": "pic5.jpg",
-      "id": "12"
+      "id": 12
     },
     {
       "nome": "nome 13",
@@ -1030,7 +1030,7 @@
       "occupazione": "occupazione 13",
       "followers": 60,
       "proPic": "pic14.jpg",
-      "id": "13"
+      "id": 13
     },
     {
       "nome": "nome 14",
@@ -1040,7 +1040,7 @@
       "occupazione": "occupazione 14",
       "followers": 70,
       "proPic": "pic6.jpg",
-      "id": "14"
+      "id": 14
     },
     {
       "nome": "nome 15",
@@ -1050,7 +1050,7 @@
       "occupazione": "occupazione 15",
       "followers": 64,
       "proPic": "pic13.jpg",
-      "id": "15"
+      "id": 15
     },
     {
       "nome": "nome 16",
@@ -1060,7 +1060,7 @@
       "occupazione": "occupazione 16",
       "followers": 66,
       "proPic": "pic7.jpg",
-      "id": "16"
+      "id": 16
     },
     {
       "nome": "nome 17",
@@ -1070,7 +1070,7 @@
       "occupazione": "occupazione 17",
       "followers": 33,
       "proPic": "pic10.jpg",
-      "id": "17"
+      "id": 17
     },
     {
       "nome": "nome 18",
@@ -1080,7 +1080,7 @@
       "occupazione": "occupazione 18",
       "followers": 44,
       "proPic": "pic8.jpg",
-      "id": "18"
+      "id": 18
     },
     {
       "nome": "nome 19",
@@ -1090,7 +1090,7 @@
       "occupazione": "occupazione 19",
       "followers": 87,
       "proPic": "pic11.jpg",
-      "id": "19"
+      "id": 19
     },
     {
       "nome": "nome 20",
@@ -1100,7 +1100,136 @@
       "occupazione": "occupazione 20",
       "followers": 98,
       "proPic": "pic9.jpg",
-      "id": "20"
+      "id": 20
+    },
+    {
+      "nome": "tyor",
+      "cognome": "daweed",
+      "username": "tyweed",
+      "email": "hello@weed.com",
+      "occupazione": "elettricista",
+      "proPic": "pic1.jpg",
+      "followers": 0,
+      "id": 21
+    },
+    {
+      "nome": "federico",
+      "cognome": "funghi",
+      "username": "ffunghi",
+      "email": "ifunghu@hmail.com",
+      "occupazione": "coltivatore tartufi",
+      "proPic": "pic2.jpg",
+      "followers": 0,
+      "id": 70
+    },
+    {
+      "nome": "jj",
+      "cognome": "okocha",
+      "username": "joko",
+      "email": "j@me.ng",
+      "occupazione": "calciatore",
+      "proPic": "pic3.jpg",
+      "followers": 0,
+      "id": 58
+    },
+    {
+      "nome": "pippo",
+      "cognome": "mcdowell",
+      "username": "goofo",
+      "email": "bert",
+      "occupazione": "zas",
+      "proPic": "pic4.jpg",
+      "followers": 0,
+      "id": 74
+    },
+    {
+      "nome": "polpo",
+      "cognome": "baldo",
+      "username": "tuuu",
+      "email": "bert",
+      "occupazione": "bert",
+      "proPic": "pic5.jpg",
+      "followers": 0,
+      "id": 27
+    },
+    {
+      "nome": "vare",
+      "cognome": "qwerty",
+      "username": "brtyuu",
+      "email": "ners",
+      "occupazione": "musicista",
+      "proPic": "pic1.jpg",
+      "followers": 0,
+      "id": 49
+    },
+    {
+      "nome": "adamo",
+      "cognome": "baldo",
+      "username": "helloworld",
+      "email": "ciao@mail.com",
+      "occupazione": "disoccupato",
+      "proPic": "pic10.jpg",
+      "followers": 0,
+      "id": 195
+    },
+    {
+      "nome": "mio",
+      "cognome": "orco",
+      "username": "tytyty",
+      "email": "morky@mindy.net",
+      "occupazione": "paese",
+      "proPic": "pic15.jpg",
+      "followers": 0,
+      "id": 136
+    },
+    {
+      "nome": "tonia",
+      "cognome": "secondo",
+      "username": "rockway",
+      "email": "pit@gorico.de",
+      "occupazione": "personaggio",
+      "proPic": "pic12.jpg",
+      "followers": 0,
+      "id": 127
+    },
+    {
+      "nome": "ciro",
+      "cognome": "caro",
+      "username": "cc",
+      "email": "c@c.c",
+      "occupazione": "lettera C",
+      "proPic": "pic21.jpg",
+      "followers": 0,
+      "id": 59
+    },
+    {
+      "nome": "ivo",
+      "cognome": "avo",
+      "username": "pp",
+      "email": "ewew",
+      "occupazione": "panificatore",
+      "proPic": "pic23.jpg",
+      "followers": 0,
+      "id": 115
+    },
+    {
+      "id": 196,
+      "proPic": "pic18.jpg",
+      "nome": "ashlee",
+      "cognome": "jones",
+      "username": "ashjo",
+      "email": "ajones@mymail.org",
+      "occupazione": "scacciacani"
+    },
+    {
+      "nome": "",
+      "cognome": "",
+      "username": "",
+      "email": "",
+      "occupazione": "",
+      "proPic": "pic15.jpg",
+      "followers": 0,
+      "id": 32
     }
   ],
   "albums": [

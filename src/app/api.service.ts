@@ -53,7 +53,7 @@ export class ApiService {
   }
   // PUT
   putUser(user: User) {
-    console.log('aggiornando ' + user);
+    //console.log('aggiornando ' + user);
     
     return this.http.put<User>(this.usersUrl + user.id, user);
   }
