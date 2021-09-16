@@ -24,6 +24,7 @@ export class AlbumsComponent implements OnInit {
     config.keyboard = false;
     config.pauseOnHover = false;
     config.showNavigationIndicators = true;
+
   }
 
 
