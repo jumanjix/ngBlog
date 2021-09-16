@@ -12,7 +12,8 @@ import { ModalComponent } from '../modal/modal.component';
 export class UsersComponent implements OnInit {
 
   users : User[] = []; // array che popola la view (utenti assegnti all'interno della ngOnInit)
-
+  searchUser : string = ''; // stringa del box ricerca
+  
   constructor(private apiService : ApiService, private modalService : NgbModal) { }
 
   ngOnInit(): void {

@@ -15,6 +15,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from './modal/modal.component';
 import { AlbumModalComponent } from './album-modal/album-modal.component';
 import { HeaderComponent } from './header/header.component';
+import { SearchUserFilterPipe } from './users/search-user-pipe/search-user-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HeaderComponent } from './header/header.component';
     HomeComponent,
     ModalComponent,
     AlbumModalComponent,
-    HeaderComponent
+    HeaderComponent,
+    SearchUserFilterPipe
   ],
   imports: [
     BrowserModule,
