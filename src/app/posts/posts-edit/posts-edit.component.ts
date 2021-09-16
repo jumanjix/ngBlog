@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-posts-edit',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostsEditComponent implements OnInit {
 
-  constructor() { }
+  public postForm: FormGroup;
+  
+  constructor(private fb: FormBuilder) { }
 
   ngOnInit(): void {
+    this.postForm = this.fb.group({
+      titolo:['', Validators.required],
+      contenuto:['', Validators.required],
+      autore:['']
+    });
   }
 
 }
