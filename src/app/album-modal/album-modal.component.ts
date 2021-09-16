@@ -2,7 +2,7 @@ import { Component, OnInit,Input } from '@angular/core';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 import { ApiService } from '../api.service';
 import { Album } from '../interfaces/album';
-import { Immagine } from '../interfaces/immagine';
+
 
 
 @Component({
@@ -13,7 +13,7 @@ import { Immagine } from '../interfaces/immagine';
 export class AlbumModalComponent implements OnInit {
 
   @Input() album! : Album;
-  @Input() operation! : string;
+  @Input() operation! : 'create' | 'edit' | 'delete';
 
   idCount! : number;
 
@@ -31,9 +31,8 @@ export class AlbumModalComponent implements OnInit {
       this.apiService.getAlbums().subscribe( result => {
         console.log(result.length);
 
-        this.idCount = result.length + 1;
-
-        console.log(this.idCount);
+        this.idCount = Math.floor(Math.random() * (200 - result.length) + result.length);
+        console.log('ID: ' + this.idCount);
       })
 
       // modello del nuovo album
@@ -55,9 +54,9 @@ export class AlbumModalComponent implements OnInit {
       this.album.id = this.idCount; // set id
       console.log(this.album);
 
-      this.apiService.postAlbum(this.album).subscribe( result => {});
+     /* this.apiService.postAlbum(this.album).subscribe( result => {});
 
-    } else if (this.operation === 'edit') { // se si modifica un album
+      else if (this.operation === 'edit') { // se si modifica un album
       console.log('edit album mode on');
 
       this.apiService.putAlbum(this.album).subscribe( result => {});
@@ -70,8 +69,10 @@ export class AlbumModalComponent implements OnInit {
         console.log(result);
 
       });
-    }
-    this.activeModal.close("Done");
+    }*/
+     }
+    this.activeModal.close(this.album);
+
   }
 }
 
