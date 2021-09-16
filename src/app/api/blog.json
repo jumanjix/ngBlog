@@ -1111,12 +1111,12 @@
         {
           "titolo": "Viaggi",
           "descrizione": "descrizione img 1",
-          "src": "prova.jpg"
+          "src": "viaggio0.jpg"
         },
         {
           "titolo": "immagine 2",
           "descrizione": "descrizione img 2",
-          "src": "viaggio.jpg"
+          "src": "viaggio1.jpg"
         },
         {
           "titolo": "immagine 3",
@@ -1167,7 +1167,7 @@
         {
           "titolo": "Gaming",
           "descrizione": "descrizione img 1",
-          "src": "gaming.jpg"
+          "src": "gaming1.jpg"
         },
         {
           "titolo": "immagine 2",

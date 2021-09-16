@@ -4,7 +4,7 @@
             <h1>Dai un'occhiata ad uno dei 20 album caricati dagli utenti:</h1><br>
             <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
               <div class="container-fluid">
-                <a class="navbar-brand"><button type="button" class="btn btn-outline-primary">+ Aggiungi Album</button></a>
+                <a class="navbar-brand"><button type="button" class="btn btn-outline-primary" (click)="openModal('create')">+ Aggiungi Album</button></a>
                 <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-primary" type="submit">Cerca</button>
@@ -26,8 +26,8 @@
               </ng-template>
             </ngb-carousel>
             <br>
-            <button type="button" class="btn btn-outline-danger">Modifica</button>&#160;
-            <button type="button" class="btn btn-outline-dark">Elimina</button>
+            <button type="button" class="btn btn-outline-danger" (click)="openModal('edit', a)">Modifica</button>&#160;
+            <button type="button" class="btn btn-outline-dark" (click)="openModal('delete', a)">Elimina</button>
 
 
           </div>
