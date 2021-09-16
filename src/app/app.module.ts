@@ -14,7 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from './modal/modal.component';
 import { AlbumModalComponent } from './album-modal/album-modal.component';
-import { PostEditComponent } from './posts/post-edit/post-edit.component';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +27,7 @@ import { PostEditComponent } from './posts/post-edit/post-edit.component';
     HomeComponent,
     ModalComponent,
     AlbumModalComponent,
-    PostEditComponent
+ 
   ],
   imports: [
     BrowserModule,
