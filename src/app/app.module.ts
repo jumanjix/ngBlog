@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-import { PostsComponent } from './posts/posts.component';
+import {PostsListComponent } from './posts/posts-list/posts-list.component';
 import { UsersComponent } from './users/users.component';
 import { AlbumsComponent } from './albums/albums.component';
 import { HomeComponent } from './home/home.component';
@@ -15,7 +15,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from './modal/modal.component';
 import { AlbumModalComponent } from './album-modal/album-modal.component';
 import { PostsEditComponent } from './posts/posts-edit/posts-edit.component';
-import { PostsListComponent } from './posts/posts-list/posts-list.component';
+
 
 
 @NgModule({
@@ -23,14 +23,14 @@ import { PostsListComponent } from './posts/posts-list/posts-list.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    PostsComponent,
+    PostsListComponent,
     UsersComponent,
     AlbumsComponent,
     HomeComponent,
     ModalComponent,
     AlbumModalComponent,
     PostsEditComponent,
-    PostsListComponent,
+ 
  
   ],
   imports: [
