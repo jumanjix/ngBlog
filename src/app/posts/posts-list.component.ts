@@ -5,7 +5,6 @@ import { Post } from 'src/app/interfaces/post';
 import { ModalPostComponent } from '../modal-post/modal-post/modal-post.component';
 
 
-
 @Component({
   selector: 'app-posts-list',
   templateUrl: './posts-list.component.html',
