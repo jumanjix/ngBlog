@@ -1,0 +1,65 @@
+<div class="container pt-5 justify-content-center">
+    <h2 class="text-center">{{title}}</h2>
+    <!-- Aggiungi Nuovo Utente -->
+    <button class="btn btn-primary d-flex mb-3" (click)="openModal('create')"> Aggiungi Post</button>
+    <hr>
+    <div class="my-2">
+        <div class="row">
+            <label for="postSearchBox" class="col-sm-2 col-form-label col-form-label-lg">Cerca:</label>
+            <div class="col-sm-10">
+                <div class="col-md-4 mx-3 form-group mb-2">
+                    <input type="text" class="form-control" placeholder="Titolo Post" aria-label="Post Search Box" id="postSearchBox" [(ngModel)]="searchPostText">
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="row ">
+            <div class="col-12 mb-4" *ngFor="let posti of posts | searchPostFilter: searchPostText">
+                <div class="card " style="width: 30rem;">
+                    <img [src]="posti.imageUrl" class="card-img-top" [alt]="posti.titolo">
+                    <div class="card-body">
+                        <h5 class="card-title">{{posti.titolo | uppercase}}</h5><br>
+                        <p class="card-text">{{posti.contenuto}}</p>
+                        <p class="card-text">{{posti.autore}}</p>
+                        <button class="btn btn-primary" (click)="togleIsnewBadge(posti.id)">Commenti</button>
+
+                        <hr>
+                        <div *ngIf="showBadge[posti.id]">
+
+                            <span class="card-text " *ngFor="let c of posti.commenti">
+                                <p> {{c.autore}}</p><br>
+                                <p> {{c.contenuto}}</p><br>
+                                <p class="material-icons  card-text">thumb_up</p>
+                                <p class="thumb"> {{c.like}}</p>
+                                <p class="material-icons  card-text">thumb_down</p>
+                                <p class="thumb"> {{c.dislike}}</p>
+                                <div>
+                                <!-- Elimina post -->
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" (click)="openModal('edit',c )">
+                            Modifica
+                        </button>
+                        
+                        <!-- Modifica post -->
+                        <button type="button" class="btn btn-danger mx-2" data-bs-toggle="modal" (click)="openModal('delete', c)">
+                            Elimina
+                        </button>
+                                </div>
+                                <br><br>
+                        </span>
+
+                        </div>
+                        <button type="button" class="btn btn-warning" (click)="openModal('edit', posti)">
+                        Modifica Post
+                    </button>
+
+                        <button type="button" class="btn btn-danger mx-4" data-bs-toggle="modal" (click)="openModal('delete', posti)">
+                        Elimina Post
+                    </button>
+
+
+                    </div>
+                </div>
+
+            </div>

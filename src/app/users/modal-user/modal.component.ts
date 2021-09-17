@@ -59,7 +59,7 @@ export class ModalComponent implements OnInit {
         //this.idCount = result.length + 1;
         // giocare con la lunghezza dell'array utenti crea problemi di sfalsamento quando viene 
         // cancellato un utente e poi aggiunto un altro
-        
+
         // creo id random compreso tra lunghezza array utenti e 200 (un numero abbastanza grande che non dovrebbe creare problemi per poche operazioni)
         this.idCount = Math.floor(Math.random() * (200 - result.length) + result.length);
         console.log('ID: ' + this.idCount);

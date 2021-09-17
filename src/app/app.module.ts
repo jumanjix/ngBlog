@@ -12,12 +12,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from './users/modal-user/modal.component';
 import { AlbumModalComponent } from './album-modal/album-modal.component';
-import { PostsEditComponent } from './posts/posts-edit/posts-edit.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchUserFilterPipe } from './users/search-user-pipe/search-user-filter.pipe';
 import { SearchAlbumPipe } from './albums/album-search/search-album.pipe';
-import { PostsListComponent } from './posts/posts-list/posts-list.component';
+import { PostsListComponent } from './posts/posts-list.component';
+import { SearchPostFilterPipe } from './posts/post-list.filter.pipe';
+import { ModalPostComponent } from './modal-post/modal-post/modal-post.component';
 import { ScrollTopComponent } from './scroll-top/scroll-top.component';
+
 
 
 @NgModule({
@@ -31,11 +33,19 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     HomeComponent,
     ModalComponent,
     AlbumModalComponent,
-    PostsEditComponent,
     HeaderComponent,
     SearchUserFilterPipe,
     SearchAlbumPipe,
+<<<<<<< HEAD
+    SearchPostFilterPipe,
+    ModalPostComponent,
+    ScrollTopComponent,
+    ModalPostComponent
+ 
+
+=======
     ScrollTopComponent
+>>>>>>> eb95557cce7e48cacf5efad1ff98e926dcb67f64
   ],
   imports: [
     BrowserModule,
