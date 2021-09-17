@@ -14,7 +14,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 export class AlbumsComponent implements OnInit {
 
   albums : Album[] = [];
-  idCount!: number;
+  searchAlbumInput : string = '';
 
 
   constructor(private apiService : ApiService, config: NgbCarouselConfig, private modalService : NgbModal) {
@@ -49,7 +49,6 @@ export class AlbumsComponent implements OnInit {
 
       console.log("modal closed with result: " + result);
 
-      // intercettare chiusura modal per annullamento dell'operazione per evitare
       // che una chiamata all'API senza parametri validi generi un errore
       if (result === 'Close click') {
 

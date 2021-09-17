@@ -5,14 +5,14 @@
             <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
               <div class="container-fluid">
                 <a class="navbar-brand"><button type="button" class="btn btn-outline-primary" (click)="openModal('create')">+ Aggiungi Album</button></a>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <div class="d-flex" for="albumsearch">
+                  <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search" [(ngModel)]="searchAlbumInput">
                   <button class="btn btn-primary" type="submit">Cerca</button>
-                </form>
+                </div>
               </div>
             </nav>
             <hr>
-            <div *ngFor="let a of albums" class="mb-5">
+            <div *ngFor="let a of albums | searchAlbum: searchAlbumInput" class="mb-5">
               <h3>{{a.titolo}}</h3>
             <ngb-carousel>
               <ng-template ngbSlide *ngFor="let i of a.immagini">
