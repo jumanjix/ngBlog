@@ -15,9 +15,11 @@ import { AlbumModalComponent } from './album-modal/album-modal.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchUserFilterPipe } from './users/search-user-pipe/search-user-filter.pipe';
 import { SearchAlbumPipe } from './albums/album-search/search-album.pipe';
+
 import { PostsListComponent } from './posts/posts-list.component';
 import { SearchPostFilterPipe } from './posts/post-list.filter.pipe';
 import { ModalPostComponent } from './modal-post/modal-post/modal-post.component';
+import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 
 
 
@@ -36,7 +38,9 @@ import { ModalPostComponent } from './modal-post/modal-post/modal-post.component
     SearchUserFilterPipe,
     SearchAlbumPipe,
     SearchPostFilterPipe,
-    ModalPostComponent
+    ModalPostComponent,
+    ScrollTopComponent
+ 
 
   ],
   imports: [

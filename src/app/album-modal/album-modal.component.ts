@@ -5,6 +5,7 @@ import { Album } from '../interfaces/album';
 
 
 
+
 @Component({
   selector: 'app-album-modal',
   templateUrl: './album-modal.component.html',
@@ -14,6 +15,7 @@ export class AlbumModalComponent implements OnInit {
 
   @Input() album! : Album;
   @Input() operation! : 'create' | 'edit' | 'delete';
+
 
   idCount! : number;
 

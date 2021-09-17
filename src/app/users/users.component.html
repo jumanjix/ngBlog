@@ -1,4 +1,5 @@
 <div class="container pb-5">
+
     <h1 class="text-center">Utenti</h1>
 
     <div class="d-flex justify-content-between mb-4">
@@ -12,45 +13,60 @@
         <div class="row my-auto align-items-center">
             <label for="userSearchBox" class="col-sm-2 col-form-label col-form-label-lg">Cerca:</label>
             <div class="col-sm-10">
-                <input class="form-control" type="text" placeholder="Nome Utente" aria-label="User Search Box" id="userSearchBox"
-                [(ngModel)]="searchUserText">
+                <input class="form-control" type="text" placeholder="Nome Utente" aria-label="User Search Box"
+                    id="userSearchBox" [(ngModel)]="searchUserText">
             </div>
-            
-        </div>       
+
+        </div>
     </div>
 
+    <!-- contenitore principale su 3 colonne delle card utente -->
     <div class="row row-cols-3 g-4">
-        <div class="col justify-content-center" *ngFor="let u of users | searchUserFilter: searchUserText"> <!-- ngFor con pipe per filtrare -->
-            <div class="card h-100">
-                <div class="row g-0 ps-2 pt-2">
-                    <div class="col-10 pt-2 col-lg-5">
-                        <img src="../../assets/propics/{{u.proPic}}" alt="propic" class="img-fluid">
-                    </div>
-                    <div class="col-10 col-lg-7">
-                        <div class="card-body">
-                            <h5 class="card-title">{{u.nome | uppercase}} {{u.cognome | uppercase}}</h5>
-                            <h6 class="card-subtitle text-muted">{{u.occupazione}}</h6>
-                            <div class="card-text mt-4">
-                                <p><strong>username:</strong> {{u.username}}</p>
-                                <p><strong>email:</strong> {{u.email}}</p>
-                                <small class="text-muted text-center">{{u.followers}} followers</small>
+
+        <!-- assegno ad una variabile - pipeResult - il risultato della pipe -->
+        <ng-container *ngIf="(users | searchUserFilter : searchUserText) as pipeResult">
+
+            <!-- se la pipe non restituisce niente la lunghezza di pipeResult sarà 0 -->
+            <div *ngIf="pipeResult.length === 0" class="text-end vh-100 w-100">
+                <p>Nessun Utente con questo nome</p>
+            </div>
+
+            <!-- se invece la pipe torna degli utenti creo le card attraverso la ngFor -->
+            <div class="col justify-content-center" *ngFor="let u of pipeResult">
+
+                <div class="card h-100">
+                    <div class="row g-0 ps-2 pt-2">
+                        <div class="col-10 pt-2 col-lg-5">                                                   <!-- Dati Utente: -->
+                            <img src="../../assets/propics/{{u.proPic}}" alt="propic" class="img-fluid">     <!-- immagine profilo -->
+                        </div>
+                        <div class="col-10 col-lg-7">
+                            <div class="card-body">
+                                <h5 class="card-title">{{u.nome | uppercase}} {{u.cognome | uppercase}}</h5> <!-- nome e cognome -->
+                                <h6 class="card-subtitle text-muted">{{u.occupazione}}</h6>                  <!-- occupazione -->
+                                <div class="card-text mt-4">
+                                    <p><strong>username:</strong> {{u.username}}</p>                         <!-- username -->
+                                    <p><strong>email:</strong> {{u.email}}</p>                               <!-- email -->
+                                    <small class="text-muted text-center">{{u.followers}} follower</small>   <!-- follower -->
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Bottoni Card che attivano il modal component -->
-                <div class="card-footer mt-auto d-flex justify-content-between">
-                    <!-- Elimina Utente -->
-                    <button type="button" class="btn btn-danger mx-lg-2 mx-auto" (click)="openModal('delete', u)">
-                        Elimina
-                    </button>                  
 
-                    <!-- Modifica Utente - Chiama il component Modal con la modal di modifica -->
-                    <button type="button" class="btn btn-warning mx-lg-2 mx-auto" (click)="openModal('edit', u)">Modifica
-                    </button>
-                </div>
+                    <!-- Bottoni Card che attivano il modal component -->
+                    <div class="card-footer mt-auto d-flex justify-content-between">
+                        <!-- Elimina Utente -->
+                        <button type="button" class="btn btn-danger mx-lg-2 mx-auto" (click)="openModal('delete', u)">
+                            Elimina
+                        </button>
 
+                        <!-- Modifica Utente - Chiama il component Modal con la modal di modifica -->
+                        <button type="button" class="btn btn-warning mx-lg-2 mx-auto"
+                            (click)="openModal('edit', u)">Modifica
+                        </button>
+                    </div>
+
+                </div>
             </div>
-        </div>
+        </ng-container>
     </div>
 </div>

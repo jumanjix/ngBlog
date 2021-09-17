@@ -11,7 +11,16 @@
                 </div>
               </div>
             </nav>
+
             <hr>
+
+            <ng-container *ngIf="(albums | searchAlbum : searchAlbumInput) as pipe">
+              <div *ngIf="pipe.length === 0" class="text-end vh-100 w-100">
+                  <div class="neon">Album</div>
+                  <div class="flux">Non trovato</div>
+              </div>
+            </ng-container>
+
             <div *ngFor="let a of albums | searchAlbum: searchAlbumInput" class="mb-5">
               <h3>{{a.titolo}}</h3>
             <ngb-carousel>
