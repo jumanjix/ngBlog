@@ -24,17 +24,17 @@ export class PostsListComponent implements OnInit {
     
   }
 
-  ngOnInit() {
-    this.postListService.getPosts().subscribe({
-      next: posts => {
-        console.log(posts);
-        this.posts = posts;
-        this.filteredPosts = this.posts;
-      },
-      error :err => this.errMsg = err   
-    });
-    this.postFilter = '';
-  }
+  // ngOnInit() {
+  //   this.postListService.getPosts().subscribe({
+  //     next: posts => {
+  //       console.log(posts);
+  //       this.posts = posts;
+  //       this.filteredPosts = this.posts;
+  //     },
+  //     error :err => this.errMsg = err   
+  //   });
+  //   this.postFilter = '';
+  // }
 
   public setArrayFalse(array: boolean[]) {
     for (let i=0; i<array.length;i++) {
