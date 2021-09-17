@@ -12,22 +12,25 @@ import { ModalComponent } from '../modal/modal.component';
 export class UsersComponent implements OnInit {
 
   users : User[] = []; // array che popola la view (utenti assegnti all'interno della ngOnInit)
-  searchUser : string = ''; // stringa del box ricerca
+  searchUserText : string = ''; // stringa del box ricerca
   
   constructor(private apiService : ApiService, private modalService : NgbModal) { }
 
   ngOnInit(): void {
     console.log('Users Component: ngoninit start');
+
     this.apiService.getUsers().subscribe( data => {  // recupero tutti gli user
      
-      this.users = data;
+      this.users = data; // assegno a users l'array di utenti ricevuto dalla get
+
       console.log('ngoninit: get data:');      
       console.log(data)  
     });
   }
 
   // prende l'operazione da fare (create, delete, edit) e l'evenutuale utente su cui operare
-  // TODO l'unica operazione che richiede la stringa con l'operazione è la create, le altre possono eliminarla
+  // TODO l'unica operazione che richiede la stringa con l'operazione è la create, le altre possono essere 
+  // omesse e l'argomento 'operation' reso facoltativo come 'user'
   openModal(operation : string, user?: User) {
 
     // chiamata al componente che contiene la modal con passaggio dei parametri 'user' e 'operation'
@@ -53,16 +56,18 @@ export class UsersComponent implements OnInit {
         console.log(result);
         
         switch(operation) {
+
           // 1) Creazione - POST
           case "create" : {
             console.log("creo nuovo utente");
             
             this.apiService.postUser(result).subscribe( res => {
               console.log(res);  
-              this.ngOnInit(); // ngOnInint qui dentro per aspettare che l'operazione sia conclusa          
+              this.ngOnInit(); // ngOnInint qui dentro per aspettare che l'operazione sia conclusa prima di aggiornare la view          
             });
             break;
           }
+
           // 2) Modifica - PUT
           case "edit" : {
             console.log("modifico utente");
@@ -73,6 +78,7 @@ export class UsersComponent implements OnInit {
             });
             break;
           }
+
           // 3) Eliminazione - DELETE
           case "delete" : {
             console.log("elimino utente");

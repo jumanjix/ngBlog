@@ -20,19 +20,18 @@ export class ModalComponent implements OnInit {
   ngOnInit(): void {
     console.log("modal component : ngOnInit start");
 
-    // in caso di Nuovo Utente creo un modello per il form
+    // in caso di Nuovo Utente bisogna creare un modello per il form
     if (this.operation === 'create') {
       console.log('creating new-user model ...');
 
-      // get sugli utenti per definire id del nuovo utente
+      // get sugli utenti per ricavare lunghezza array, utilizzata per definire id del nuovo utente
       this.apiService.getUsers().subscribe(result => {
         //console.log(result.length);
         //this.idCount = result.length + 1;
         // giocare con la lunghezza dell'array utenti crea problemi di sfalsamento quando viene 
         // cancellato un utente e poi aggiunto un altro
-        // un intero random abbastanza grande non dovrebbe creare problemi per poche operazioni
         
-        // creo id random compreso tra lunghezza array utenti e 200
+        // creo id random compreso tra lunghezza array utenti e 200 (un numero abbastanza grande che non dovrebbe creare problemi per poche operazioni)
         this.idCount = Math.floor(Math.random() * (200 - result.length) + result.length);
         console.log('ID: ' + this.idCount);
       });
@@ -52,7 +51,8 @@ export class ModalComponent implements OnInit {
 
   }
 
-  // chiamata quando si decide di procedere con l'operazione di creazione/modifica/eliminazione
+  // chiamata quando si dà il consenso a procedere (click sull'apposito bottone della modal) 
+  // con l'operazione di creazione/modifica/eliminazione utente
   onOperationConsent() {
     console.log("form submitted with values:");
     console.log(this.user);
@@ -82,6 +82,7 @@ export class ModalComponent implements OnInit {
     } */
 
     // alla chiusura della modal, ritorna al componente Users l'utente creato/modificato/eliminato
+    // le chiamate al servizio API verranno effettuate da Users
     this.activeModal.close(this.user);
   }
 }
