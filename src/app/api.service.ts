@@ -1,14 +1,21 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { Post } from './interfaces/post';
+
 import { User } from './interfaces/user';
 import { Album } from './interfaces/album';
+import { Observable } from 'rxjs';
+import { Post } from './interfaces/post';
+
+
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class ApiService {
+  // getPosts() {
+  //   throw new Error('Method not implemented.');
+  // }
 
   // indirizzo principale json *** NON UTILIZZATO
   private apiUrl: string = "http://localhost:3000/";
@@ -19,7 +26,7 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
-  // ***** Operazioni sui post ***** 
+  // // ***** Operazioni sui post ***** 
   // GET - recupero 
   getPosts(): Observable<Post[]> {
     return this.http.get<Post[]>(this.postsUrl);
@@ -83,4 +90,8 @@ export class ApiService {
 
   // *** Operazioni sulle immagini
   // TODO ???
+
+ 
+
 }
+

@@ -13,14 +13,14 @@
             <label for="userSearchBox" class="col-sm-2 col-form-label col-form-label-lg">Cerca:</label>
             <div class="col-sm-10">
                 <input class="form-control" type="text" placeholder="Nome Utente" aria-label="User Search Box" id="userSearchBox"
-                [(ngModel)]="searchUser">
+                [(ngModel)]="searchUserText">
             </div>
             
         </div>       
     </div>
 
     <div class="row row-cols-3 g-4">
-        <div class="col justify-content-center" *ngFor="let u of users | searchUserFilter: searchUser"> <!-- ngFor con pipe per filtrare -->
+        <div class="col justify-content-center" *ngFor="let u of users | searchUserFilter: searchUserText"> <!-- ngFor con pipe per filtrare -->
             <div class="card h-100">
                 <div class="row g-0 ps-2 pt-2">
                     <div class="col-10 pt-2 col-lg-5">

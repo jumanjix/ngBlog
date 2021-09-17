@@ -1,46 +1,58 @@
 <div class="modal-dialog modal-lg my-auto">
 
-    <form *ngIf="operation != 'delete'" (ngSubmit)="onOperationConsent()" #form="ngForm">
-
-        <div class="modal-content">
+    <!-- 
+        Modal content per le operazioni di edit e create. 
+        Le poche differenze tra le due vengono gestite con interpolazioni di stringhe e la direttiva ngClass 
+    -->
+    <div class="modal-content">
+        <form *ngIf="operation != 'delete'" (ngSubmit)="onOperationConsent()" #form="ngForm">
 
             <div class="modal-header">
-                <h5 class="modal-title" id="formModal">Modifica Utente</h5>
+                <h5 class="modal-title" id="formModal">{{ operation === 'edit'? 'Modifica' : 'Crea Nuovo' }} Utente</h5>
                 <button type="button" class="btn-close" (click)="activeModal.close('Close click')"
                     aria-label="Close"></button>
             </div>
 
             <div class="modal-body">
-                <div class="row pt-3">
+                <div class="row row-cols-2 pt-3">
                     <div class="col">
-                        <div class="mb-3">
+                        <div class="form-group mb-3">
                             <label for="Nome" class="form-label">Nome:</label>
                             <input type="text" class="form-control" id="Nome" name="Nome" aria-label="Nome"
-                                [(ngModel)]="user.nome">
-                        </div>
-                        <div class="mb-3">
-                            <label for="NomeUtente" class="form-label">Nome Utente:</label>
-                            <input type="text" class="form-control" id="NomeUtente" name="NomeUtente"
-                                aria-label="Nome Utente" [(ngModel)]="user.username">
-                        </div>
-                        <div class="mb-3">
-                            <label for="proPicFile" class="form-label">Immagine Profilo:</label>
-                            <input type="text" class="form-control" id="proPicFile" name="proPicFile"
-                            aria-label="Immagine Profilo Utente" [(ngModel)]="user.proPic">
+                                [(ngModel)]="user.nome" required>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="mb-3">
+                        <div class="form-group mb-3">
+                            <label for="NomeUtente" class="form-label">Nome Utente:</label>
+                            <input type="text" class="form-control" id="NomeUtente" name="NomeUtente"
+                                aria-label="Nome Utente" [(ngModel)]="user.username" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group mb-3">
+                            <label for="proPicFile" class="form-label">Immagine Profilo:</label>
+                            <input type="text" class="form-control" id="proPicFile" name="proPicFile"
+                                aria-label="Immagine Profilo Utente" [(ngModel)]="user.proPic">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-group mb-3">
                             <label for="Cognome" class="form-label">Cognome:</label>
                             <input type="text" class="form-control" id="Cognome" name="Cognome" aria-label="Cognome"
                                 [(ngModel)]="user.cognome">
                         </div>
-                        <div class="mb-3">
+                    </div>
+                    <div class="col">
+                        <div class="form-group mb-3">
                             <label for="Email" class="form-label">E-mail:</label>
                             <input type="text" class="form-control" id="Email" name="Email" aria-label="Email"
                                 [(ngModel)]="user.email">
                         </div>
-                        <div class="mb-3">
+                    </div>
+                    <div class="col">
+                        <div class="form-group mb-3">
                             <label for="Occupazione" class="form-label">Occupazione:</label>
                             <input type="text" class="form-control" id="Occupazione" name="Occupazione"
                                 aria-label="Occupazione" [(ngModel)]="user.occupazione">
@@ -51,16 +63,20 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary"
                     (click)="activeModal.close('Close click')">Annulla</button>
-                <button type="submit" class="btn btn-success">Salva Modifiche</button>
+                <button type="submit" class="btn" [ngClass]="operation === 'edit'? 'btn-success' : 'btn-primary'">
+                    {{ operation === 'edit'? 'Salva Modifiche' : 'Crea Utente' }}
+                </button>
             </div>
-        </div>
-    </form>
+        </form>
 
-    <!-- Modal di eliminazione -->
+    </div>
+
+    <!-- Modal content per l'operazione di eliminazione -->
     <div *ngIf="operation === 'delete'" class="modal-content">
         <div class="modal-header">
             <h5 class="modal-title" id="deleteModal">Elimina Utente</h5>
-            <button type="button" class="btn-close" (click)="activeModal.close('Close click')" aria-label="Close"></button>
+            <button type="button" class="btn-close" (click)="activeModal.close('Close click')"
+                aria-label="Close"></button>
         </div>
         <div class="modal-body">
             Stai per eliminare {{user.nome | uppercase}} {{user.cognome | uppercase}}. Procedere?
