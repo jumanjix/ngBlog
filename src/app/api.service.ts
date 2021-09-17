@@ -4,6 +4,8 @@ import { HttpClient } from '@angular/common/http';
 import { User } from './interfaces/user';
 import { Album } from './interfaces/album';
 import { Observable } from 'rxjs';
+// import { Post } from './interfaces/post';
+
 
 
 
@@ -11,9 +13,9 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  getPosts() {
-    throw new Error('Method not implemented.');
-  }
+  // getPosts() {
+  //   throw new Error('Method not implemented.');
+  // }
 
   // indirizzo principale json *** NON UTILIZZATO
   private apiUrl: string = "http://localhost:3000/";

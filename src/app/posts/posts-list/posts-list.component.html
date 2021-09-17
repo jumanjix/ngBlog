@@ -2,53 +2,25 @@
     <h2 class="text-center">{{title}}</h2>
     <!-- Aggiungi Nuovo Utente -->
     <button class="btn btn-primary d-flex mb-3" data-bs-toggle="modal" data-bs-target="#modalNuovo"> + Aggiungi i dati</button>
-    <!-- Modal di creazione nuovo utente -->
-    <!-- <div class="modal fade" id="modalNuovo" tabindex="-1" aria-labelledby="modalNuovoLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalNuovoLabel">Crea Nuovo Post</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form action="">
-                        <div class="row pt-3">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Titolo" aria-label="Titolo">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="file" class="form-control" id="imageUrl">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Contenuto" aria-label="Contenuto">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
-                                </div>
-
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Like" aria-label="Like">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Dislike" aria-label="Dislike">
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
-                    <button type="button" class="btn btn-primary">Aggiungi i dati</button>
-                </div>
+    <hr>
+    <div class="my-2">
+        <div class="row">
+            <div class="col-md-4">
+                <span>
+                    Cerca:
+                </span>
+                <b>{{postFilter}}</b>
             </div>
+            <div class="col-md-8 form-group mb-2">
+                <input type="text" class="form-control" [(ngModel)]="postFilter">
+            </div>
+
         </div>
-    </div> -->
+    </div>
+
 
     <div class="row ">
-        <div class="col-12 mb-4" *ngFor="let posti of posts">
+        <div class="col-12 mb-4" *ngFor="let posti of filteredPosts">
             <div class="card " style="width: 30rem;">
                 <img [src]="posti.imageUrl" class="card-img-top" [alt]="posti.titolo">
                 <div class="card-body">
@@ -86,91 +58,7 @@
                         Modifica Post
                     </button>
 
-                    <!-- <div class="card-footer">
 
-                            Modal di eliminazione
-                            <div class="modal fade" id="modalElimina" tabindex="-1" aria-labelledby="modalEliminaLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="modalEliminaLabel">Elimina Utente</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            Stai per eliminare dati commenti
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
-                                            <button type="button" class="btn btn-danger">Elimina</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-
-
-                    <!--                     
-                    <div class="card-footer">
-
-                        Modal di eliminazione
-                        <div class="modal fade" id="modalElimina" tabindex="-1" aria-labelledby="modalEliminaLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="modalEliminaLabel">Elimina Utente</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Stai per eliminare {{posti.titolo | uppercase}}.
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
-                                        <button type="button" class="btn btn-danger">Elimina</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        Modal di modifica
-                        <div class="modal fade" id="modalModifica" tabindex="-1" aria-labelledby="modalModificaLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="modalModificaLabel">Modifica Post</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form #form="ngForm">
-                                            <div class="row pt-3">
-                                                <div class="col">
-                                                    <div class="mb-3">
-
-                                                        <input type="text" class="form-control" id="Titolo" name="Titolo" aria-label="Titolo" placeholder="Titolo">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <input type="text" class="form-control" id="Contenuto" name="Contenuto" aria-label="Contenuto" placeholder="Contenuto">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <input type="text" class="form-control" id="autore" name="autore" aria-label="autore" placeholder="Autore">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="imageUrl" class="form-label">Immagine Post:</label>
-                                                        <input type="file" class="form-control" id="imageUrl" name="imageUrl">
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
-                                        <button type="button" class="btn btn-success">Salva Modifiche</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
 

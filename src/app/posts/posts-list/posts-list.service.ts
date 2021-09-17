@@ -5,11 +5,13 @@ import { catchError, tap } from "rxjs/operators";
 import { Post } from "src/app/interfaces/post";
 
 
+
 @Injectable({
     providedIn: 'root'
   })
 
 export class PostListService{
+
 
     private readonly POST_API_URL = 'api/blog.json';
 
@@ -17,15 +19,14 @@ export class PostListService{
 
     }
 
-    public getPosts(): Observable<Post[]> {
-        return this.http.get<Post[]>(this.POST_API_URL).pipe(
-            tap(posts => console.log('post:', posts)),
-            catchError(this.handleError)
-        );
+    public getCase(): Observable<Post[]> {
+      //envoyer la requete
+         return this.http.get<Post[]>(this.POST_API_URL).pipe(tap(_posts => console.log('posts:', _posts)),
+         catchError(this.handleError));
+      }
 
-    }
 
-    public createHotel(post: Post): Observable<Post> {
+    public createPost(post: Post): Observable<Post> {
         post = {
           ...post,
           imageUrl: 'assets/img/1.jpg',
@@ -36,7 +37,7 @@ export class PostListService{
         )
       }
     
-      public updateHotel(post: Post): Observable<Post> {
+      public updatePost(post: Post): Observable<Post> {
         const url = `${this.POST_API_URL}/${post.id}`;
     
         return this.http.put<Post>(url, post).pipe(
@@ -44,7 +45,7 @@ export class PostListService{
         );
       }
     
-      public deleteHotel(id: number): Observable<{}> {
+      public deletePost(id: number): Observable<{}> {
         const url = `${this.POST_API_URL}/${id}`;
     
         return this.http.delete<Post>(url).pipe(
