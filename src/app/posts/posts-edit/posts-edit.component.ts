@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
+import { Post } from 'src/app/interfaces/post';
 
 @Component({
   selector: 'app-posts-edit',
@@ -21,7 +22,16 @@ export class PostsEditComponent implements OnInit {
       autore:['']
     });
 
-    
+  this.route.paramMap.subscribe(params =>{
+    const id = params.get('id');
+
+    console.log(id);
+  }); 
   }
 
+  public post!: Post;
+
+public savePost(): void{
+  console.log(this.postForm.value);
+}
 }

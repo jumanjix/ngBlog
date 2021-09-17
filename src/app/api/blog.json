@@ -903,16 +903,6 @@
   ],
   "users": [
     {
-      "nome": "linda",
-      "cognome": "landi",
-      "username": "wendy20",
-      "email": "wndy@mail.com",
-      "occupazione": "lampionista",
-      "followers": 40,
-      "proPic": "pic19.jpg",
-      "id": 2
-    },
-    {
       "nome": "pippo",
       "cognome": "goofy",
       "username": "goofo",

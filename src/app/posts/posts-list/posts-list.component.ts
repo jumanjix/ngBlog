@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from 'src/app/api.service';
 import { Post } from 'src/app/interfaces/post';
 
 @Component({
@@ -14,7 +13,7 @@ export class PostsListComponent implements OnInit {
   
   public showBadge: Array<boolean> = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
 
-  posts : Post[] = [];
+  public posts : Post[] = [];
 
   public setArrayFalse(array: boolean[]) {
     for (let i=0; i<array.length;i++) {
@@ -27,11 +26,11 @@ export class PostsListComponent implements OnInit {
     this.showBadge[index] = !this.showBadge[index];
   }
 
-  constructor(private apiService : ApiService) { 
-    this.apiService.getPosts().subscribe( data => {
-      this.posts = data;
-    })
-  }
+  // constructor(private apiService : ApiService) { 
+  //   this.apiService.getPosts().subscribe( data => {
+  //     this.posts = data;
+  //   })
+  // }
 
   ngOnInit(): void {
   }
