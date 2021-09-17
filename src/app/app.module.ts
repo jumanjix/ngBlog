@@ -17,6 +17,7 @@ import { HeaderComponent } from './header/header.component';
 import { SearchUserFilterPipe } from './users/search-user-pipe/search-user-filter.pipe';
 import { SearchAlbumPipe } from './albums/album-search/search-album.pipe';
 import { PostsListComponent } from './posts/posts-list/posts-list.component';
+import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { PostsListComponent } from './posts/posts-list/posts-list.component';
     HeaderComponent,
     SearchUserFilterPipe,
     SearchAlbumPipe,
+    ScrollTopComponent,
  
 
 
