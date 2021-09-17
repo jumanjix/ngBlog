@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-// import { ApiService } from 'src/app/api.service';
+import { ApiService } from 'src/app/api.service';
 import { Post } from 'src/app/interfaces/post';
-import { PostListService } from './posts-list.service';
+
 
 @Component({
   selector: 'app-posts-list',
@@ -20,9 +20,9 @@ export class PostsListComponent implements OnInit {
   public  posts: Post[] = [];
   public errMsg! : string;
  
-  constructor(private postListService: PostListService){
+  // constructor(private postListService: PostListService){
     
-  }
+  // }
 
   // ngOnInit() {
   //   this.postListService.getPosts().subscribe({
@@ -48,14 +48,14 @@ export class PostsListComponent implements OnInit {
   }
 
 
-  // constructor(private apiService : ApiService) { 
-  //   this.apiService.getPosts().subscribe( data => {
-  //     this.posts = data;
-  //   })
-  // }
-  // ngOnInit(): void {
-  //   throw new Error('Method not implemented.');
-  // }
+  constructor(private apiService : ApiService) { 
+    this.apiService.getPosts().subscribe( data => {
+      this.posts = data;
+    })
+  }
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 
 
 
