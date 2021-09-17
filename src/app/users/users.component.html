@@ -2,7 +2,7 @@
 
     <h1 class="text-center">Utenti</h1>
 
-    <div class="d-flex justify-content-between mb-4">
+    <div class="d-grid gap-2 d-md-flex justify-content-md-between mb-4">
 
         <!-- Bottone Aggiungi Nuovo Utente - Chiama il component Modal con la modal di aggiunta nuovo utente -->
         <button type="button" class="btn btn-primary my-auto" (click)="openModal('create')">
@@ -21,7 +21,7 @@
     </div>
 
     <!-- contenitore principale su 3 colonne delle card utente -->
-    <div class="row row-cols-3 g-4">
+    <div class="row row-cols-md-3 g-4">
 
         <!-- assegno ad una variabile - pipeResult - il risultato della pipe -->
         <ng-container *ngIf="(users | searchUserFilter : searchUserText) as pipeResult">
@@ -36,10 +36,10 @@
                 
                 <div class="card h-100">
                     <div class="row g-0 ps-2 pt-2">
-                        <div class="col-10 pt-2 col-lg-5">                                                   <!-- Dati Utente: -->
+                        <div class="col-10 pt-2 col-lg-5 mx-auto">                                                   <!-- Dati Utente: -->
                             <img src="../../assets/propics/{{u.proPic}}" alt="propic" class="img-fluid">     <!-- immagine profilo -->
                         </div>
-                        <div class="col-10 col-lg-7">
+                        <div class="col-10 col-lg-7 mx-auto">
                             <div class="card-body">
                                 <h5 class="card-title">{{u.nome | uppercase}} {{u.cognome | uppercase}}</h5> <!-- nome e cognome -->
                                 <h6 class="card-subtitle text-muted">{{u.occupazione}}</h6>                  <!-- occupazione -->
@@ -53,14 +53,15 @@
                     </div>
 
                     <!-- Bottoni Card che attivano il modal component -->
-                    <div class="card-footer mt-auto d-flex justify-content-between">
+                    <div class="card-footer mt-auto d-sm-grid gap-2 d-md-flex justify-content-md-between">
+                        
                         <!-- Elimina Utente -->
-                        <button type="button" class="btn btn-danger mx-lg-2 mx-auto" (click)="openModal('delete', u)">
+                        <button type="button" class="btn btn-danger" (click)="openModal('delete', u)">
                             Elimina
                         </button>
 
                         <!-- Modifica Utente - Chiama il component Modal con la modal di modifica -->
-                        <button type="button" class="btn btn-warning mx-lg-2 mx-auto"
+                        <button type="button" class="btn btn-warning"
                             (click)="openModal('edit', u)">Modifica
                         </button>
                     </div>

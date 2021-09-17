@@ -15,6 +15,21 @@ export class ModalComponent implements OnInit {
 
   idCount!: number;
 
+  // opzioni per la foto profilo. sottoinsieme della cartella assets/propics
+  proPics: string[] = [
+    'pic10.jpg',
+    'pic11.jpg',
+    'pic12.jpg',
+    'pic13.jpg',
+    'pic14.jpg',
+    'pic15.jpg',
+    'pic16.jpg',
+    'pic17.jpg',
+    'pic18.jpg',
+    'pic19.jpg',
+    'pic20.jpg'
+  ]
+
   constructor(public activeModal: NgbActiveModal, private apiService: ApiService) { }
 
   ngOnInit(): void {

@@ -5,10 +5,15 @@
         Le poche differenze tra le due vengono gestite con interpolazioni di stringhe e la direttiva ngClass 
     -->
     <div class="modal-content">
-        <form *ngIf="operation != 'delete'" (ngSubmit)="onOperationConsent()" #form="ngForm">
+
+        <!-- inizio form -->
+        <form *ngIf="operation != 'delete'" (ngSubmit)="onOperationConsent()" #userForm="ngForm">
 
             <div class="modal-header">
+                <!-- titolo -->
                 <h5 class="modal-title" id="formModal">{{ operation === 'edit'? 'Modifica' : 'Crea Nuovo' }} Utente</h5>
+
+                <!-- X di chiusura -->
                 <button type="button" class="btn-close" (click)="activeModal.close('Close click')"
                     aria-label="Close"></button>
             </div>
@@ -19,7 +24,20 @@
                         <div class="form-group mb-3">
                             <label for="Nome" class="form-label">Nome:</label>
                             <input type="text" class="form-control" id="Nome" name="Nome" aria-label="Nome"
-                                [(ngModel)]="user.nome" required>
+                                [(ngModel)]="user.nome" required #nome="ngModel">
+
+                            <!-- prova messaggio errore validazione -->
+                            <!-- messaggio compare quando, una volta inserito un nome, si cancella tutto il campo -->
+                            <div [hidden]="nome.valid || nome.pristine" class="alert alert-danger">
+                                Inserisci il tuo nome
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group mb-3">
+                            <label for="Cognome" class="form-label">Cognome:</label>
+                            <input type="text" class="form-control" id="Cognome" name="Cognome" aria-label="Cognome"
+                                [(ngModel)]="user.cognome" required>
                         </div>
                     </div>
                     <div class="col">
@@ -31,39 +49,39 @@
                     </div>
                     <div class="col">
                         <div class="form-group mb-3">
-                            <label for="proPicFile" class="form-label">Immagine Profilo:</label>
-                            <input type="text" class="form-control" id="proPicFile" name="proPicFile"
-                                aria-label="Immagine Profilo Utente" [(ngModel)]="user.proPic">
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="form-group mb-3">
-                            <label for="Cognome" class="form-label">Cognome:</label>
-                            <input type="text" class="form-control" id="Cognome" name="Cognome" aria-label="Cognome"
-                                [(ngModel)]="user.cognome">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="form-group mb-3">
                             <label for="Email" class="form-label">E-mail:</label>
                             <input type="text" class="form-control" id="Email" name="Email" aria-label="Email"
-                                [(ngModel)]="user.email">
+                                [(ngModel)]="user.email" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group mb-3">
+                            <label for="proPicFile" class="form-label">Immagine Profilo:</label>
+                            <select class="form-control" id="proPicFile" required [(ngModel)]="user.proPic"
+                                name="proPicFile">
+                                <option *ngFor="let pic of proPics" [value]="pic">{{pic}}</option>
+                            </select>
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-group mb-3">
                             <label for="Occupazione" class="form-label">Occupazione:</label>
                             <input type="text" class="form-control" id="Occupazione" name="Occupazione"
-                                aria-label="Occupazione" [(ngModel)]="user.occupazione">
+                                aria-label="Occupazione" [(ngModel)]="user.occupazione" required>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="modal-footer">
+
+            <div class="modal-footer mt-auto d-grid gap-2 d-md-flex justify-content-md-between">
+
+                <!-- bottone annulla operazione -->
                 <button type="button" class="btn btn-secondary"
                     (click)="activeModal.close('Close click')">Annulla</button>
-                <button type="submit" class="btn" [ngClass]="operation === 'edit'? 'btn-success' : 'btn-primary'">
+
+                <!-- bottone di conferma operazione -->
+                <button type="submit" class="btn" [ngClass]="operation === 'edit'? 'btn-success' : 'btn-primary'"
+                    [disabled]="!userForm.form.valid">
                     {{ operation === 'edit'? 'Salva Modifiche' : 'Crea Utente' }}
                 </button>
             </div>
