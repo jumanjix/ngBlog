@@ -17,11 +17,11 @@ export class PostListService{
 
     }
 
-    public getPosts(): Observable<Post[]> {
-      //manda riquesta
-         return this.http.get<Post[]>(this.POST_API_URL).pipe(tap(posts => console.log('posts:', posts)),
-         catchError(this.handleError));
-      }
+    // public getPosts(): Observable<Post[]> {
+    //   //manda riquesta
+    //      return this.http.get<Post[]>(this.POST_API_URL).pipe(tap(posts => console.log('posts:', posts)),
+    //      catchError(this.handleError));
+    //   }
 
 
     public createPost(post: Post): Observable<Post> {
