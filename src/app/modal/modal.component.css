@@ -1,0 +1,8 @@
+/* bordi colorati negli input del form per validazione */
+.ng-valid[required], .ng-valid.required {
+    border-left: 4px solid green;
+}
+
+.ng-invalid:not(form) {
+    border-left: 4px solid red;
+}

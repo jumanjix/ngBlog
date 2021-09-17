@@ -2,6 +2,7 @@ import { Component, OnInit,Input } from '@angular/core';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 import { ApiService } from '../api.service';
 import { Album } from '../interfaces/album';
+import { Immagine } from '../interfaces/immagine';
 
 
 
@@ -75,6 +76,14 @@ export class AlbumModalComponent implements OnInit {
      }
     this.activeModal.close(this.album);
 
+  }
+
+  eliminaImg(img : Immagine) {
+    const imgIndex = this.album.immagini.indexOf(img);
+    this.album.immagini.splice(imgIndex,1);
+
+    console.log(this.album.immagini);
+    
   }
 }
 
