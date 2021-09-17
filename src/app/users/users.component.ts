@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ApiService } from '../api.service';
 import { User } from '../interfaces/user';
-import { ModalComponent } from '../modal/modal.component';
+import { ModalComponent } from './modal-user/modal.component';
 
 @Component({
   selector: 'app-users',
@@ -48,6 +48,7 @@ export class UsersComponent implements OnInit {
       if (result === 'Close click') {
 
         console.log("operation aborted");
+        this.ngOnInit(); // per eliminare i cambiamenti fatti dall'ngModel ma non salvati sul json
         
       }
       else { // in questo caso la modal è stata chiusa confermando l'operazione e posso chiamare il servizio API

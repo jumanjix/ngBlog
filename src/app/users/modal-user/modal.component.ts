@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
-import { ApiService } from '../api.service';
-import { User } from '../interfaces/user';
+import { ApiService } from '../../api.service';
+import { User } from '../../interfaces/user';
 
 @Component({
   selector: 'app-modal',
@@ -15,8 +15,17 @@ export class ModalComponent implements OnInit {
 
   idCount!: number;
 
-  // opzioni per la foto profilo. sottoinsieme della cartella assets/propics
+  // opzioni per la foto profilo. sono le immagini nella cartella assets/propics
   proPics: string[] = [
+    'pic1.jpg',
+    'pic2.jpg',
+    'pic3.jpg',
+    'pic4.jpg',
+    'pic5.jpg',
+    'pic6.jpg',
+    'pic7.jpg',
+    'pic8.jpg',
+    'pic9.jpg',
     'pic10.jpg',
     'pic11.jpg',
     'pic12.jpg',
@@ -27,7 +36,12 @@ export class ModalComponent implements OnInit {
     'pic17.jpg',
     'pic18.jpg',
     'pic19.jpg',
-    'pic20.jpg'
+    'pic20.jpg',
+    'pic21.jpg',
+    'pic22.jpg',
+    'pic23.jpg',
+    'pic24.jpg',
+
   ]
 
   constructor(public activeModal: NgbActiveModal, private apiService: ApiService) { }
