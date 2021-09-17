@@ -1,1 +1,70 @@
-<p>album-modal works!</p>
+<div class="modal-dialog modal-lg my-auto">
+
+  <form *ngIf="operation != 'delete'" (ngSubmit)="onOperationConsent()" #form="ngForm">
+
+      <div class="modal-content">
+
+          <div class="modal-header">
+              <h5 class="modal-title" id="formModal">Modifica Album</h5>
+              <button type="button" class="btn-close" (click)="activeModal.close('Close click')"
+                  aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+              <div class="row pt-3">
+                  <div class="col">
+                      <div class="mb-3">
+                          <label for="titolo" class="form-label">Titolo:</label>
+                          <input type="text" class="form-control" id="titolo" name="titolo" aria-label="titolo"
+                              [(ngModel)]="album.titolo">
+                      </div>
+                      <div class="mb-3">
+                          <label for="album" class="form-label">Immagine Album:</label>
+                          <table class="table  table-borderless" *ngFor="let i of album.immagini">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row"></th>
+                                <td>{{i.src}} </td>
+                                <td><button type="button" class="btn-close" aria-label="Close" (click)="onOperationConsent()"></button></td>
+                                <td></td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                         <!-- <input type="text" class="form-control" id="album" name="album" [(ngModel)]="album.immagini.src">-->
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary"
+                  (click)="activeModal.close('Close click')">Annulla</button>
+              <button type="submit" class="btn btn-success">Salva Modifiche</button>
+          </div>
+      </div>
+  </form>
+
+  <!-- Modal di eliminazione -->
+  <div *ngIf="operation === 'delete'" class="modal-content">
+      <div class="modal-header">
+          <h5 class="modal-title" id="deleteModal">Vuoi davvero eliminare l'album</h5>
+          <button type="button" class="btn-close" (click)="activeModal.close('Close click')" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          Stai per eliminare l'album {{album.titolo}}. Procedere?
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" (click)="activeModal.close('Close click')">Annulla</button>
+          <button type="button" class="btn btn-danger" (click)="onOperationConsent()">Elimina</button>
+      </div>
+  </div>
+
+
+</div>

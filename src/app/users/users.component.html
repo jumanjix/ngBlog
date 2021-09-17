@@ -1,21 +1,32 @@
-<div class="container pt-5">
-    <h2 class="text-center">Utenti</h2>
+<div class="container pb-5">
+    <h1 class="text-center">Utenti</h1>
 
-    <div class="d-flex justify-content-end">
+    <div class="d-flex justify-content-between mb-4">
+
         <!-- Bottone Aggiungi Nuovo Utente - Chiama il component Modal con la modal di aggiunta nuovo utente -->
-        <button type="button" class="btn btn-primary mb-4" (click)="openModal('create')">
+        <button type="button" class="btn btn-primary my-auto" (click)="openModal('create')">
             + Aggiungi Utente
         </button>
+
+        <!-- Barra di ricerca -->
+        <div class="row my-auto align-items-center">
+            <label for="userSearchBox" class="col-sm-2 col-form-label col-form-label-lg">Cerca:</label>
+            <div class="col-sm-10">
+                <input class="form-control" type="text" placeholder="Nome Utente" aria-label="User Search Box" id="userSearchBox"
+                [(ngModel)]="searchUser">
+            </div>
+            
+        </div>       
     </div>
 
     <div class="row row-cols-3 g-4">
-        <div class="col justify-content-center" *ngFor="let u of users"> <!-- per ogni user una card -->
+        <div class="col justify-content-center" *ngFor="let u of users | searchUserFilter: searchUser"> <!-- ngFor con pipe per filtrare -->
             <div class="card h-100">
                 <div class="row g-0 ps-2 pt-2">
-                    <div class="col-5 pt-2">
+                    <div class="col-10 pt-2 col-lg-5">
                         <img src="../../assets/propics/{{u.proPic}}" alt="propic" class="img-fluid">
                     </div>
-                    <div class="col-7">
+                    <div class="col-10 col-lg-7">
                         <div class="card-body">
                             <h5 class="card-title">{{u.nome | uppercase}} {{u.cognome | uppercase}}</h5>
                             <h6 class="card-subtitle text-muted">{{u.occupazione}}</h6>
@@ -30,12 +41,12 @@
                 <!-- Bottoni Card che attivano il modal component -->
                 <div class="card-footer mt-auto d-flex justify-content-between">
                     <!-- Elimina Utente -->
-                    <button type="button" class="btn btn-danger mx-2" (click)="openModal('delete', u)">
+                    <button type="button" class="btn btn-danger mx-lg-2 mx-auto" (click)="openModal('delete', u)">
                         Elimina
                     </button>                  
 
                     <!-- Modifica Utente - Chiama il component Modal con la modal di modifica -->
-                    <button type="button" class="btn btn-warning mx-2" (click)="openModal('edit', u)">Modifica
+                    <button type="button" class="btn btn-warning mx-lg-2 mx-auto" (click)="openModal('edit', u)">Modifica
                     </button>
                 </div>
 
