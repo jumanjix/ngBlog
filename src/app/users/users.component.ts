@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ApiService } from '../api.service';
 import { User } from '../interfaces/user';
-import { ModalComponent } from '../modal/modal.component';
+import { ModalComponent } from './modal-user/modal.component';
 
 @Component({
   selector: 'app-users',
