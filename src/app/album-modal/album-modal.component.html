@@ -21,29 +21,34 @@
 
                         <div class="mb-3">
                             <label for="album" class="form-label">Immagine Album:</label>
-                            <table class="table  table-borderless" *ngFor="let i of album.immagini">
+                            <table class="table  table-borderless">
                                 <thead>
                                     <tr>
                                         <th scope="col"></th>
                                         <th scope="col"></th>
+                                        <th scope="col">Modifica titolo</th>
                                         <th scope="col"></th>
+                                        <th scope="col">Modifica descrizione</th>
                                         <th scope="col"></th>
+                                        <th scope="col">Elimina</th>
+
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody *ngFor="let i of album.immagini">
                                     <tr>
-                                        <th scope="row"></th>
                                         <td>{{i.src}} </td>
-                                        <td><button type="button" class="btn-close" aria-label="Close"
-                                                (click)="eliminaImg(i)"></button>
-                                        </td>
+                                        <td></td>
                                         <td> <input type="text" class="form-control" id="ititolo" name="ititolo"
-                                                aria-label="titolo" [(ngModel)]="i.titolo">
+                                                aria-label="i.titolo" [(ngModel)]="i.titolo">
                                         </td>
-                                        <td>
-                                            <input type="text" class="form-control" id="idesc" name="idesc"
-                                                aria-label="titolo" [(ngModel)]="i.descrizione">
+                                        <td></td>
+                                        <td><input type="text" class="form-control" id="idesc" name="idesc"
+                                                    aria-label="idesc" [(ngModel)]="i.descrizione">
                                         </td>
+                                        <td></td>
+                                        <td><button type="button" class="btn-close" aria-label="Close"
+                                        (click)="eliminaImg(i)"></button></td>
+
                                     </tr>
                                 </tbody>
                             </table>

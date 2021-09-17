@@ -77,13 +77,14 @@ export class AlbumModalComponent implements OnInit {
     this.activeModal.close(this.album);
 
   }
-
+  /*eliminazione di ogni singola immagine*/
   eliminaImg(img : Immagine) {
     const imgIndex = this.album.immagini.indexOf(img);
     this.album.immagini.splice(imgIndex,1);
 
     console.log(this.album.immagini);
-    
+
   }
+
 }
 
