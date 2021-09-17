@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Post } from 'src/app/interfaces/post';
+import { PostListService } from '../posts-list/posts-list.service';
 
 @Component({
   selector: 'app-posts-edit',
@@ -10,10 +11,16 @@ import { Post } from 'src/app/interfaces/post';
 })
 export class PostsEditComponent implements OnInit {
 
-  public postForm!: FormGroup;
-  public route!: ActivatedRoute;
-  
-  constructor(private fb: FormBuilder) { }
+  public post!: Post;
+
+ 
+  constructor(
+    private fb: FormBuilder,
+    public postForm: FormGroup,
+    public route: ActivatedRoute,
+    public router: Router,
+    private postService: PostListService
+    ) { }
 
   ngOnInit(): void {
     this.postForm = this.fb.group({
@@ -29,9 +36,26 @@ export class PostsEditComponent implements OnInit {
   }); 
   }
 
-  public post!: Post;
-
 public savePost(): void{
+  if(this.postForm.valid){
+    if(this.postForm.dirty) {
+      const post: Post={
+        ...this.post,
+        ...this.postForm.value
+      };
+      if(post.id === 0){
+
+      }else{
+        this.postService.updatePost(post).subscribe({
+          next:() => this.saveCompleted()
+        });
+      }
+    }
+  }
   console.log(this.postForm.value);
+}
+public saveCompleted(): void{
+  this.postForm.reset();
+  this.router.navigate(['/posts-edit']);
 }
 }

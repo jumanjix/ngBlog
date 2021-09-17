@@ -25,7 +25,7 @@ export class PostListService{
 
 
     public createPost(post: Post): Observable<Post> {
-        posts = {
+        post = {
           ...post,
           imageUrl: 'assets/img/1.jpg',
          

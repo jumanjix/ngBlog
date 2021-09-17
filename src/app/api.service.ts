@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { User } from './interfaces/user';
 import { Album } from './interfaces/album';
 import { Observable } from 'rxjs';
-// import { Post } from './interfaces/post';
+import { Post } from './interfaces/post';
 
 
 
@@ -27,22 +27,22 @@ export class ApiService {
   constructor(private http: HttpClient) { }
 
   // // ***** Operazioni sui post ***** 
-  // // GET - recupero 
-  // getPosts(): Observable<Post[]> {
-  //   return this.http.get<Post[]>(this.postsUrl);
-  // }
-  // // DELETE - eliminazione
-  // deletePost(id: number) {
-  //   return this.http.delete<Post>(this.postsUrl + id);
-  // }
-  // // PUT - modifica esistente
-  // putPost(post: Post) {
-  //   return this.http.put<Post>(this.postsUrl + post.id, post);
-  // }
-  // // POST - aggiunta nuovo
-  // postPost(post: Post) {
-  //   return this.http.post<Post>(this.postsUrl, post);
-  // }
+  // GET - recupero 
+  getPosts(): Observable<Post[]> {
+    return this.http.get<Post[]>(this.postsUrl);
+  }
+  // DELETE - eliminazione
+  deletePost(id: number) {
+    return this.http.delete<Post>(this.postsUrl + id);
+  }
+  // PUT - modifica esistente
+  putPost(post: Post) {
+    return this.http.put<Post>(this.postsUrl + post.id, post);
+  }
+  // POST - aggiunta nuovo
+  postPost(post: Post) {
+    return this.http.post<Post>(this.postsUrl, post);
+  }
 
 
   // *** Operazioni sui commenti 

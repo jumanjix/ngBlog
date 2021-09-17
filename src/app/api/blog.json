@@ -903,7 +903,7 @@
   ],
   "users": [
     {
-      "nome": "pippo",
+      "nome": "pippo--2",
       "cognome": "goofy",
       "username": "goofo",
       "email": "pippo@me.com",
@@ -1214,64 +1214,8 @@
   ],
   "albums": [
     {
-      "id": "2",
-      "titolo": "Gaming",
-      "immagini": [
-        {
-          "titolo": "Gaming",
-          "descrizione": "descrizione img 1",
-          "src": "gaming1.jpg"
-        },
-        {
-          "titolo": "immagine 2",
-          "descrizione": "descrizione img 2",
-          "src": "gaming2.jpg"
-        },
-        {
-          "titolo": "immagine 3",
-          "descrizione": "descrizione img 3",
-          "src": "gaming3.jpg"
-        },
-        {
-          "titolo": "immagine 4",
-          "descrizione": "descrizione img 4",
-          "src": "gaming4.jpg"
-        },
-        {
-          "titolo": "immagine 5",
-          "descrizione": "descrizione img 5",
-          "src": "gaming5.jpg"
-        },
-        {
-          "titolo": "immagine 6",
-          "descrizione": "descrizione img 6",
-          "src": "gaming6.jpg"
-        },
-        {
-          "titolo": "immagine 7",
-          "descrizione": "descrizione img 7",
-          "src": "gaming7.jpg"
-        },
-        {
-          "titolo": "immagine 8",
-          "descrizione": "descrizione img 8",
-          "src": "gaming8.jpg"
-        },
-        {
-          "titolo": "immagine 9",
-          "descrizione": "descrizione img 9",
-          "src": "gaming9.jpg"
-        },
-        {
-          "titolo": "immagine 10",
-          "descrizione": "descrizione img 10",
-          "src": "gaming10.jpg"
-        }
-      ]
-    },
-    {
       "id": "3",
-      "titolo": "Città",
+      "titolo": "jj",
       "immagini": [
         {
           "titolo": "Città",
