@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from 'src/app/api.service';
+// import { ApiService } from 'src/app/api.service';
 import { Post } from 'src/app/interfaces/post';
 import { PostListService } from './posts-list.service';
 
@@ -20,20 +20,21 @@ export class PostsListComponent implements OnInit {
   public  posts: Post[] = [];
   public errMsg! : string;
  
-  // constructor(private postListService: PostListService){
+  constructor(private postListService: PostListService){
     
-  // }
+  }
 
-  // ngOnInit() {
-  //   this.postListService.getPosts().subscribe({
-  //     next: posts => {
-  //       this.posts = posts;
-  //       this.filteredPosts = this.posts;
-  //     },
-  //     error :err => this.errMsg = err   
-  //   });
-  //   this.postFilter = '';
-  // }
+  ngOnInit() {
+    this.postListService.getPosts().subscribe({
+      next: posts => {
+        console.log(posts);
+        this.posts = posts;
+        this.filteredPosts = this.posts;
+      },
+      error :err => this.errMsg = err   
+    });
+    this.postFilter = '';
+  }
 
   public setArrayFalse(array: boolean[]) {
     for (let i=0; i<array.length;i++) {
@@ -47,14 +48,14 @@ export class PostsListComponent implements OnInit {
   }
 
 
-  constructor(private apiService : ApiService) { 
-    this.apiService.getPosts().subscribe( data => {
-      this.posts = data;
-    })
-  }
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
+  // constructor(private apiService : ApiService) { 
+  //   this.apiService.getPosts().subscribe( data => {
+  //     this.posts = data;
+  //   })
+  // }
+  // ngOnInit(): void {
+  //   throw new Error('Method not implemented.');
+  // }
 
 
 

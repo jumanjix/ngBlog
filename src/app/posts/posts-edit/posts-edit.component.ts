@@ -44,7 +44,9 @@ public savePost(): void{
         ...this.postForm.value
       };
       if(post.id === 0){
-
+        this.postService.createPost(post).subscribe({
+          next: () => this.saveCompleted()
+        });
       }else{
         this.postService.updatePost(post).subscribe({
           next:() => this.saveCompleted()
