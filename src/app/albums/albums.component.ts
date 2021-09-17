@@ -51,7 +51,7 @@ export class AlbumsComponent implements OnInit {
 
       // che una chiamata all'API senza parametri validi generi un errore
       if (result === 'Close click') {
-
+        this.ngOnInit();
         console.log("operation aborted");
 
       }
