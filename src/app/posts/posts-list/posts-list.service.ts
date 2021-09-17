@@ -7,11 +7,9 @@ import { Post } from "src/app/interfaces/post";
 
 
 @Injectable({
-    providedIn: 'root'
-  })
-
+  providedIn: 'root'
+})
 export class PostListService{
-
 
     private readonly POST_API_URL = 'api/blog.json';
 
@@ -19,15 +17,15 @@ export class PostListService{
 
     }
 
-    public getCase(): Observable<Post[]> {
-      //envoyer la requete
-         return this.http.get<Post[]>(this.POST_API_URL).pipe(tap(_posts => console.log('posts:', _posts)),
+    public getPosts(): Observable<Post[]> {
+      //manda riquesta
+         return this.http.get<Post[]>(this.POST_API_URL).pipe(tap(posts => console.log('posts:', posts)),
          catchError(this.handleError));
       }
 
 
     public createPost(post: Post): Observable<Post> {
-        post = {
+        posts = {
           ...post,
           imageUrl: 'assets/img/1.jpg',
          

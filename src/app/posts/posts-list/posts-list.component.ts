@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-// import { ApiService } from 'src/app/api.service';
 import { Post } from 'src/app/interfaces/post';
 import { PostListService } from './posts-list.service';
 
@@ -20,17 +19,17 @@ export class PostsListComponent implements OnInit {
   public  posts: Post[] = [];
   public errMsg! : string;
  
-  constructor(private postListService = PostListService){
+  constructor(private postListService: PostListService){
     
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.postListService.getPosts().subscribe({
-      next: post => {
-        this.posts = post;
+      next: posts => {
+        this.posts = posts;
         this.filteredPosts = this.posts;
       },
-      error : err => this.errMsg = err   
+      error :err => this.errMsg = err   
     });
     this.postFilter = '';
   }

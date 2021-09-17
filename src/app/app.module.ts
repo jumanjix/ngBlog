@@ -17,7 +17,7 @@ import { HeaderComponent } from './header/header.component';
 import { SearchUserFilterPipe } from './users/search-user-pipe/search-user-filter.pipe';
 import { SearchAlbumPipe } from './albums/album-search/search-album.pipe';
 import { PostsListComponent } from './posts/posts-list/posts-list.component';
-import { PostListService } from './posts/posts-list/posts-list.service';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +34,7 @@ import { PostListService } from './posts/posts-list/posts-list.service';
     HeaderComponent,
     SearchUserFilterPipe,
     SearchAlbumPipe,
-    PostListService
+ 
 
 
   ],
