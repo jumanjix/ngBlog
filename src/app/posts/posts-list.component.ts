@@ -3,7 +3,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ApiService } from 'src/app/api.service';
 import { Post } from 'src/app/interfaces/post';
 import { ModalPostComponent } from '../modal-post/modal-post/modal-post.component';
-import { ModalComponent } from '../modal/modal.component';
+
 
 
 @Component({

@@ -36,16 +36,11 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     HeaderComponent,
     SearchUserFilterPipe,
     SearchAlbumPipe,
-<<<<<<< HEAD
     SearchPostFilterPipe,
     ModalPostComponent,
     ScrollTopComponent,
     ModalPostComponent
  
-
-=======
-    ScrollTopComponent
->>>>>>> eb95557cce7e48cacf5efad1ff98e926dcb67f64
   ],
   imports: [
     BrowserModule,
