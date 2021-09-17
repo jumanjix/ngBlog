@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ApiService } from 'src/app/api.service';
 import { Post } from 'src/app/interfaces/post';
+import { ModalComponent } from '../modal/modal.component';
 
 
 @Component({
@@ -16,25 +18,12 @@ export class PostsListComponent implements OnInit {
 
   public showBadge: Array<boolean> = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
 
-  private _postFilter = "";
-  public  posts: Post[] = [];
-  public errMsg! : string;
  
-  // constructor(private postListService: PostListService){
-    
-  // }
+  public  posts: Post[] = [];
+  searchPostText: string = '';
 
-  // ngOnInit() {
-  //   this.postListService.getPosts().subscribe({
-  //     next: posts => {
-  //       console.log(posts);
-  //       this.posts = posts;
-  //       this.filteredPosts = this.posts;
-  //     },
-  //     error :err => this.errMsg = err   
-  //   });
-  //   this.postFilter = '';
-  // }
+  constructor(private apiService : ApiService, private modalService : NgbModal) { }
+
 
   public setArrayFalse(array: boolean[]) {
     for (let i=0; i<array.length;i++) {
@@ -48,36 +37,78 @@ export class PostsListComponent implements OnInit {
   }
 
 
-  constructor(private apiService : ApiService) { 
-    this.apiService.getPosts().subscribe( data => {
-      this.posts = data;
-    })
-  }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    console.log('Posts Component: ngoninit start');
+
+    this.apiService.getPosts().subscribe( data => { 
+     
+      this.posts = data;
+
+      console.log('ngoninit : get data:');      
+      console.log(data)  
+    });
   }
 
+  openModal(operation : string, post?: Post) {
 
+ 
+    const modalRef = this.modalService.open(ModalComponent);
+    modalRef.componentInstance.post = post;
+    modalRef.componentInstance.operation = operation;
 
-  public get postFilter(): string{
-    return this._postFilter;
-  }
+    modalRef.closed.subscribe( result => {
 
-  public set postFilter(filter : string){
-    this._postFilter= filter;
+      console.log("modal closed with result: " + result);
 
-    this.filteredPosts = this.postFilter ? this.filterPosts(this.postFilter) : this.posts;
-  }
-  
-  private filterPosts(criteria: string): Post[] {
-    criteria = criteria.toLocaleLowerCase();
+      if (result === 'Close click') {
 
-    const res = this.posts.filter(
-      (post: Post) => post.titolo.toLocaleLowerCase().indexOf(criteria) !== -1
-    );
+        console.log("operation aborted");
+        
+      }
+      else { 
 
-    return res;
+        console.log('data back from modal:');      
+        console.log(result);
+        
+        switch(operation) {
 
+          // aggiungi POST
+          case "create" : {
+            console.log("aggiungo nuovo post");
+            
+            this.apiService.postPost(result).subscribe( res => {
+              console.log(res);  
+              this.ngOnInit();       
+            });
+            break;
+          }
+
+          // 2) Modifica - PUT
+          case "edit" : {
+            console.log("modifico Post");
+            
+            this.apiService.putPost(result).subscribe( res => {
+              console.log(res);  
+              this.ngOnInit();          
+            });
+            break;
+          }
+
+          // 3) Eliminazione - DELETE
+          case "delete" : {
+            console.log("elimino post");
+            
+            this.apiService.deletePost(result.id).subscribe( res => {
+              console.log(res);    
+              this.ngOnInit();                
+            });     
+            break;
+          }
+        }
+      }
+     
+    })
+    
   }
 
 }

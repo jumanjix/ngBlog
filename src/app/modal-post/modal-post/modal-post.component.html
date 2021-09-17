@@ -1,0 +1,66 @@
+<div class="modal-dialog modal-lg my-auto">
+    <div class="modal-content">
+        <form *ngIf="operation != 'delete'" (ngSubmit)="onOperationConsent()" #form="ngForm">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="formModal">{{ operation === 'edit'? 'Modifica' : 'Crea Nuovo' }} Post</h5>
+                <button type="button" class="btn-close" (click)="activeModal.close('Close click')" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="row row-cols-2 pt-3">
+                    <div class="col">
+                        <div class="form-group mb-3">
+                            <label for="titolo" class="form-label">Titolo:</label>
+                            <input type="text" class="form-control" id="titolo" name="titolo" aria-label="Titolo" [(ngModel)]="post.titolo" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group mb-3">
+                            <label for="contenuto" class="form-label">Contenuto:</label>
+                            <input type="text" class="form-control" id="contenuto" name="contenuto" aria-label="contenuto" [(ngModel)]="post.contenuto" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group mb-3">
+                            <label for="imageUrl" class="form-label">Immagine Post:</label>
+                            <input type="text" class="form-control" id="imageUrl" name="imageUrl" aria-label="Immagine Post" [(ngModel)]="post.imageUrl">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-group mb-3">
+                            <label for="Autore" class="form-label">Autore:</label>
+                            <input type="text" class="form-control" id="Autore" name="Autore" aria-label="Autore" [(ngModel)]="post.autore">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" (click)="activeModal.close('Close click')">Annulla</button>
+                <button type="submit" class="btn" [ngClass]="operation === 'edit'? 'btn-success' : 'btn-primary'">
+                    {{ operation === 'edit'? 'Salva Modifiche' : 'Crea Post' }}
+                </button>
+            </div>
+        </form>
+
+    </div>
+
+    <!-- Modal content per l'operazione di eliminazione -->
+    <div *ngIf="operation === 'delete'" class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="deleteModal">Elimina Post</h5>
+            <button type="button" class="btn-close" (click)="activeModal.close('Close click')" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Stai per eliminare {{post.titolo | uppercase}} {{post.contenuto | uppercase}}. Procedere?
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" (click)="activeModal.close('Close click')">Annulla</button>
+            <button type="button" class="btn btn-danger" (click)="onOperationConsent()">Elimina</button>
+        </div>
+    </div>
+
+
+</div>

@@ -12,11 +12,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from './modal/modal.component';
 import { AlbumModalComponent } from './album-modal/album-modal.component';
-import { PostsEditComponent } from './posts/posts-edit/posts-edit.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchUserFilterPipe } from './users/search-user-pipe/search-user-filter.pipe';
 import { SearchAlbumPipe } from './albums/album-search/search-album.pipe';
-import { PostsListComponent } from './posts/posts-list/posts-list.component';
+import { PostsListComponent } from './posts/posts-list.component';
+
 
 
 @NgModule({
@@ -30,7 +30,6 @@ import { PostsListComponent } from './posts/posts-list/posts-list.component';
     HomeComponent,
     ModalComponent,
     AlbumModalComponent,
-    PostsEditComponent,
     HeaderComponent,
     SearchUserFilterPipe,
     SearchAlbumPipe,
