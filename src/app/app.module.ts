@@ -41,7 +41,10 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     ScrollTopComponent,
     ModalPostComponent
  
+<<<<<<< HEAD
+=======
 
+>>>>>>> c26b5b874565488525846d2cc9108190932c495d
   ],
   imports: [
     BrowserModule,
