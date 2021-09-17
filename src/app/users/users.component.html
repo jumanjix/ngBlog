@@ -25,15 +25,15 @@
 
         <!-- assegno ad una variabile - pipeResult - il risultato della pipe -->
         <ng-container *ngIf="(users | searchUserFilter : searchUserText) as pipeResult">
-            
+
             <!-- se la pipe non restituisce niente la lunghezza di pipeResult sarà 0 -->
             <div *ngIf="pipeResult.length === 0" class="text-end vh-100 w-100">
-                <p>Nessun Utente con questo nome</p>   
+                <p>Nessun Utente con questo nome</p>
             </div>
 
             <!-- se invece la pipe torna degli utenti creo le card attraverso la ngFor -->
-            <div class="col justify-content-center" *ngFor="let u of pipeResult">               
-                
+            <div class="col justify-content-center" *ngFor="let u of pipeResult">
+
                 <div class="card h-100">
                     <div class="row g-0 ps-2 pt-2">
                         <div class="col-10 pt-2 col-lg-5">                                                   <!-- Dati Utente: -->

@@ -18,6 +18,7 @@
                           <input type="text" class="form-control" id="titolo" name="titolo" aria-label="titolo"
                               [(ngModel)]="album.titolo">
                       </div>
+
                       <div class="mb-3">
                           <label for="album" class="form-label">Immagine Album:</label>
                           <table class="table  table-borderless" *ngFor="let i of album.immagini">
@@ -26,19 +27,18 @@
                                 <th scope="col"></th>
                                 <th scope="col"></th>
                                 <th scope="col"></th>
+                                <th scope="col"></th>
                               </tr>
                             </thead>
                             <tbody>
-                              <tr>
+                              <tr >
                                 <th scope="row"></th>
                                 <td>{{i.src}} </td>
                                 <td><button type="button" class="btn-close" aria-label="Close" (click)="onOperationConsent()"></button></td>
-                                <td></td>
+                                <td><button type="button" class="btn btn-outline-primary" (click)="onOperationConsent()">Cambia</button></td>
                               </tr>
                             </tbody>
                           </table>
-
-                         <!-- <input type="text" class="form-control" id="album" name="album" [(ngModel)]="album.immagini.src">-->
                       </div>
                   </div>
               </div>
