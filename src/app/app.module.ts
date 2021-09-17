@@ -10,7 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ModalComponent } from './modal/modal.component';
+import { ModalComponent } from './users/modal-user/modal.component';
 import { AlbumModalComponent } from './album-modal/album-modal.component';
 import { PostsEditComponent } from './posts/posts-edit/posts-edit.component';
 import { HeaderComponent } from './header/header.component';
@@ -35,10 +35,7 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     HeaderComponent,
     SearchUserFilterPipe,
     SearchAlbumPipe,
-    ScrollTopComponent,
- 
-
-
+    ScrollTopComponent
   ],
   imports: [
     BrowserModule,

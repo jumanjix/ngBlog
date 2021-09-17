@@ -48,6 +48,7 @@ export class UsersComponent implements OnInit {
       if (result === 'Close click') {
 
         console.log("operation aborted");
+        this.ngOnInit(); // per eliminare i cambiamenti fatti dall'ngModel ma non salvati sul json
         
       }
       else { // in questo caso la modal è stata chiusa confermando l'operazione e posso chiamare il servizio API
