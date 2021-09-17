@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ApiService } from 'src/app/api.service';
 import { Post } from 'src/app/interfaces/post';
+import { ModalPostComponent } from '../modal-post/modal-post/modal-post.component';
 import { ModalComponent } from '../modal/modal.component';
 
 
@@ -52,7 +53,7 @@ export class PostsListComponent implements OnInit {
   openModal(operation : string, post?: Post) {
 
  
-    const modalRef = this.modalService.open(ModalComponent);
+    const modalRef = this.modalService.open(ModalPostComponent);
     modalRef.componentInstance.post = post;
     modalRef.componentInstance.operation = operation;
 
@@ -112,3 +113,7 @@ export class PostsListComponent implements OnInit {
   }
 
 }
+function ModalPostsComponent(ModalPostsComponent: any) {
+  throw new Error('Function not implemented.');
+}
+

@@ -37,12 +37,12 @@
                                 <p class="thumb"> {{c.dislike}}</p>
                                 <div>
                                 <!-- Elimina post -->
-                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" (click)="openModal('edit', c.posti)">
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" (click)="openModal('edit',c )">
                             Modifica
                         </button>
                         
                         <!-- Modifica post -->
-                        <button type="button" class="btn btn-danger mx-2" data-bs-toggle="modal" (click)="openModal('delete', c.posti)">
+                        <button type="button" class="btn btn-danger mx-2" data-bs-toggle="modal" (click)="openModal('delete', c)">
                             Elimina
                         </button>
                                 </div>

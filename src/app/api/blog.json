@@ -868,17 +868,8 @@
                     "id": "3"
                 }
             ]
-        },
-        {
-            "nome": "    ggg",
-            "cognome": "",
-            "username": "    yyy",
-            "email": "",
-            "occupazione": "",
-            "proPic": "nnn",
-            "followers": 0,
-            "id": 77
         }
+
     ],
     "users": [{
             "nome": "pippo--2",
